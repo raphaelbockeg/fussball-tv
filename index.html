@@ -24,6 +24,7 @@
   --free: #1d7a46;
   --free-soft: #e2f3e8;
   --warn: #8a5a00;
+  --z1: #1f5fd1; --z2: #e08a00; --z3: #2e9e6a; --z4: #7b4fd1; --z5: #c8102e;
   --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
   --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
 }
@@ -31,12 +32,14 @@
   :root:not([data-theme="light"]) {
     --bg: #111319; --surface: #1a1d26; --fg: #eef0f5; --muted: #a0a6b8; --line: #2c303d;
     --red: #ff5a6e; --red-soft: #3a1820; --navy: #8fb0f5; --free: #5fd394; --free-soft: #15301f; --warn: #f0b85a;
+    --z1: #6f9cff; --z2: #ffb340; --z3: #5fd394; --z4: #b393ff; --z5: #ff5a6e;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #111319; --surface: #1a1d26; --fg: #eef0f5; --muted: #a0a6b8; --line: #2c303d;
   --red: #ff5a6e; --red-soft: #3a1820; --navy: #8fb0f5; --free: #5fd394; --free-soft: #15301f; --warn: #f0b85a;
+  --z1: #6f9cff; --z2: #ffb340; --z3: #5fd394; --z4: #b393ff; --z5: #ff5a6e;
   color-scheme: dark;
 }
 body {
@@ -44,7 +47,7 @@ body {
   font-family: var(--font-body); font-size: 16px; line-height: 1.45;
 }
 .wrap {
-  max-width: 640px; margin: 0 auto;
+  max-width: 1120px; margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
   padding-block: 20px 40px;
@@ -69,7 +72,59 @@ h1 span { color: var(--accent, var(--red)); }
 .tab:focus-visible { outline: 2px solid var(--accent, var(--red)); outline-offset: 2px; border-radius: 4px; }
 body.nfl { --accent: var(--navy); }
 
-.panel { display: flex; flex-direction: column; gap: 18px; }
+.panel { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; align-items: start; }
+.games { min-width: 0; display: flex; flex-direction: column; gap: 18px; }
+@media (min-width: 960px) {
+  .panel { grid-template-columns: minmax(0, 1fr) 420px; gap: 36px; }
+  .standings { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); max-height: calc(100vh - 32px); overflow-y: auto; }
+}
+
+/* Tabellen */
+.standings {
+  min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+  padding: 16px; display: flex; flex-direction: column; gap: 12px;
+}
+.st-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.st-head h2 { margin: 0; }
+.st-stand { font-size: .8rem; color: var(--muted); }
+.seg { display: inline-flex; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; align-self: flex-start; }
+.seg button {
+  appearance: none; border: 0; background: none; cursor: pointer; color: var(--muted);
+  font-family: var(--font-body); font-weight: 600; font-size: .88rem; padding: 6px 14px; border-radius: 999px;
+}
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
+.seg button:focus-visible { outline: 2px solid var(--accent, var(--red)); outline-offset: 1px; }
+.tbl-wrap { overflow-x: auto; }
+table.tbl { width: 100%; border-collapse: collapse; font-size: .9rem; font-variant-numeric: tabular-nums; }
+.tbl th {
+  font-size: .72rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .05em;
+  text-align: right; padding: 4px 5px 6px; border-bottom: 1px solid var(--line); white-space: nowrap;
+}
+.tbl td { text-align: right; padding: 5px 5px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.tbl th.l, .tbl td.l { text-align: left; }
+.tbl td.team { white-space: normal; min-width: 8em; }
+@media (max-width: 520px) {
+  .tbl .opt { display: none; }
+  .tbl td.team { min-width: 0; }
+  .tbl th, .tbl td { padding-left: 4px; padding-right: 4px; }
+  .standings { padding: 14px 12px; }
+}
+.tbl td.pos { width: 2.2em; text-align: left; color: var(--muted); border-left: 3px solid transparent; padding-left: 6px; }
+.tbl td.pkt { font-weight: 700; }
+.tbl tr.me td { background: var(--red-soft); font-weight: 700; }
+.tbl tr.me td.pos { color: var(--fg); }
+.z-cl td.pos { border-left-color: var(--z1); }
+.z-el td.pos { border-left-color: var(--z2); }
+.z-ecl td.pos { border-left-color: var(--z3); }
+.z-rel td.pos { border-left-color: var(--z4); }
+.z-down td.pos { border-left-color: var(--z5); }
+.zones { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .76rem; color: var(--muted); }
+.zones i { display: inline-block; width: 3px; height: 12px; margin-right: 6px; vertical-align: -2px; }
+.div-name {
+  font-family: var(--font-display); font-weight: 700; font-size: 1rem; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--accent, var(--navy)); margin: 10px 0 2px;
+}
+.div-name:first-child { margin-top: 0; }
 
 .next {
   background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
@@ -110,11 +165,11 @@ h2 {
 }
 .list { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
 .row {
-  display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 14px;
+  display: grid; grid-template-columns: 86px minmax(0, 1fr); gap: 12px;
   padding-block: 14px; border-bottom: 1px solid var(--line);
 }
 .date { font-variant-numeric: tabular-nums; display: flex; flex-direction: column; }
-.date .d { font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; line-height: 1; }
+.date .d { font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; line-height: 1; white-space: nowrap; }
 .date .t { font-size: .85rem; color: var(--muted); }
 .info { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
 .info .comp { font-size: .78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; font-weight: 600; }
@@ -149,14 +204,36 @@ footer { font-size: .8rem; color: var(--muted); display: flex; flex-direction: c
   </div>
 
   <section class="panel" id="p-bayern" role="tabpanel" aria-labelledby="tab-bayern">
-    <div class="next" id="next" aria-live="polite"></div>
-    <h2>Danach</h2>
-    <div class="list" id="list"></div>
+    <div class="games">
+      <div class="next" id="next" aria-live="polite"></div>
+      <h2>Danach</h2>
+      <div class="list" id="list"></div>
+    </div>
+    <aside class="standings" aria-label="Tabelle">
+      <div class="st-head"><h2>Tabelle</h2><span class="st-stand" id="fb-stand"></span></div>
+      <div class="seg" role="group" aria-label="Wettbewerb">
+        <button type="button" id="seg-bl" aria-pressed="true">Bundesliga</button>
+        <button type="button" id="seg-cl" aria-pressed="false">Champions League</button>
+      </div>
+      <div class="tbl-wrap" id="fb-table"></div>
+      <div class="zones" id="fb-zones"></div>
+    </aside>
   </section>
 
   <section class="panel" id="p-nfl" role="tabpanel" aria-labelledby="tab-nfl" hidden>
-    <div class="list" id="nfl-list"></div>
-    <p class="hint">Alle NFL-Spiele laufen zusätzlich live im NFL Game Pass (Abo über DAZN). Welche Spiele RTL und Sky zeigen, steht meist erst in der jeweiligen Spielwoche fest.</p>
+    <div class="games">
+      <div class="list" id="nfl-list"></div>
+      <p class="hint">Alle NFL-Spiele laufen zusätzlich live im NFL Game Pass (Abo über DAZN). Welche Spiele RTL und Sky zeigen, steht meist erst in der jeweiligen Spielwoche fest.</p>
+    </div>
+    <aside class="standings" aria-label="Tabelle">
+      <div class="st-head"><h2>Tabelle</h2><span class="st-stand" id="nfl-stand"></span></div>
+      <div class="seg" role="group" aria-label="Conference">
+        <button type="button" id="seg-afc" aria-pressed="true">AFC</button>
+        <button type="button" id="seg-nfc" aria-pressed="false">NFC</button>
+      </div>
+      <div class="tbl-wrap" id="nfl-table"></div>
+      <p class="hint">S = Siege, N = Niederlagen, U = Unentschieden, Diff = erzielte minus kassierte Punkte. Pro Conference erreichen die 4 Divisionssieger und 3 Wildcard-Teams die Playoffs.</p>
+    </aside>
   </section>
 
   <div class="legend">
@@ -172,7 +249,7 @@ footer { font-size: .8rem; color: var(--muted); display: flex; flex-direction: c
 <!-- SPIELPLAN: Dieser Block wird automatisch aktualisiert -->
 <script type="application/json" id="spielplan">
 {
- "aktualisiert": "2026-10-22T10:00:00+02:00",
+ "aktualisiert": "2026-10-22T11:00:00+02:00",
  "bayern": [
   {
    "anstoss": "2026-10-25T17:30:00+01:00",
@@ -541,7 +618,860 @@ footer { font-size: .8rem; color: var(--muted); display: flex; flex-direction: c
    ],
    "bestaetigt": true
   }
- ]
+ ],
+ "tabellen": {
+  "bundesliga": {
+   "stand": "nach dem 6. Spieltag",
+   "zeilen": [
+    {
+     "platz": 1,
+     "team": "FC Bayern",
+     "sp": 6,
+     "s": 4,
+     "u": 2,
+     "n": 0,
+     "tore": 22,
+     "gegen": 5,
+     "diff": 17,
+     "pkt": 14
+    },
+    {
+     "platz": 2,
+     "team": "Borussia Dortmund",
+     "sp": 6,
+     "s": 4,
+     "u": 2,
+     "n": 0,
+     "tore": 11,
+     "gegen": 4,
+     "diff": 7,
+     "pkt": 14
+    },
+    {
+     "platz": 3,
+     "team": "SC Freiburg",
+     "sp": 6,
+     "s": 4,
+     "u": 1,
+     "n": 1,
+     "tore": 15,
+     "gegen": 6,
+     "diff": 9,
+     "pkt": 13
+    },
+    {
+     "platz": 4,
+     "team": "Bayer Leverkusen",
+     "sp": 6,
+     "s": 4,
+     "u": 1,
+     "n": 1,
+     "tore": 16,
+     "gegen": 9,
+     "diff": 7,
+     "pkt": 13
+    },
+    {
+     "platz": 5,
+     "team": "1. FSV Mainz 05",
+     "sp": 6,
+     "s": 3,
+     "u": 1,
+     "n": 2,
+     "tore": 14,
+     "gegen": 10,
+     "diff": 4,
+     "pkt": 10
+    },
+    {
+     "platz": 6,
+     "team": "SV Elversberg",
+     "sp": 6,
+     "s": 3,
+     "u": 1,
+     "n": 2,
+     "tore": 12,
+     "gegen": 11,
+     "diff": 1,
+     "pkt": 10
+    },
+    {
+     "platz": 7,
+     "team": "RB Leipzig",
+     "sp": 6,
+     "s": 3,
+     "u": 0,
+     "n": 3,
+     "tore": 16,
+     "gegen": 11,
+     "diff": 5,
+     "pkt": 9
+    },
+    {
+     "platz": 8,
+     "team": "Werder Bremen",
+     "sp": 6,
+     "s": 2,
+     "u": 3,
+     "n": 1,
+     "tore": 12,
+     "gegen": 12,
+     "diff": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 9,
+     "team": "Hamburger SV",
+     "sp": 6,
+     "s": 3,
+     "u": 0,
+     "n": 3,
+     "tore": 6,
+     "gegen": 15,
+     "diff": -9,
+     "pkt": 9
+    },
+    {
+     "platz": 10,
+     "team": "FC Augsburg",
+     "sp": 6,
+     "s": 2,
+     "u": 2,
+     "n": 2,
+     "tore": 16,
+     "gegen": 12,
+     "diff": 4,
+     "pkt": 8
+    },
+    {
+     "platz": 11,
+     "team": "Eintracht Frankfurt",
+     "sp": 6,
+     "s": 2,
+     "u": 2,
+     "n": 2,
+     "tore": 10,
+     "gegen": 16,
+     "diff": -6,
+     "pkt": 8
+    },
+    {
+     "platz": 12,
+     "team": "1. FC Köln",
+     "sp": 6,
+     "s": 2,
+     "u": 1,
+     "n": 3,
+     "tore": 8,
+     "gegen": 11,
+     "diff": -3,
+     "pkt": 7
+    },
+    {
+     "platz": 13,
+     "team": "VfB Stuttgart",
+     "sp": 6,
+     "s": 2,
+     "u": 0,
+     "n": 4,
+     "tore": 8,
+     "gegen": 10,
+     "diff": -2,
+     "pkt": 6
+    },
+    {
+     "platz": 14,
+     "team": "TSG Hoffenheim",
+     "sp": 6,
+     "s": 2,
+     "u": 0,
+     "n": 4,
+     "tore": 11,
+     "gegen": 14,
+     "diff": -3,
+     "pkt": 6
+    },
+    {
+     "platz": 15,
+     "team": "FC Schalke 04",
+     "sp": 6,
+     "s": 1,
+     "u": 2,
+     "n": 3,
+     "tore": 4,
+     "gegen": 7,
+     "diff": -3,
+     "pkt": 5
+    },
+    {
+     "platz": 16,
+     "team": "SC Paderborn 07",
+     "sp": 6,
+     "s": 1,
+     "u": 2,
+     "n": 3,
+     "tore": 5,
+     "gegen": 9,
+     "diff": -4,
+     "pkt": 5
+    },
+    {
+     "platz": 17,
+     "team": "1. FC Union Berlin",
+     "sp": 6,
+     "s": 1,
+     "u": 2,
+     "n": 3,
+     "tore": 5,
+     "gegen": 17,
+     "diff": -12,
+     "pkt": 5
+    },
+    {
+     "platz": 18,
+     "team": "Borussia Mönchengladbach",
+     "sp": 6,
+     "s": 0,
+     "u": 0,
+     "n": 6,
+     "tore": 8,
+     "gegen": 20,
+     "diff": -12,
+     "pkt": 0
+    }
+   ]
+  },
+  "championsLeague": {
+   "stand": "nach dem 3. Spieltag",
+   "zeilen": [
+    {
+     "platz": 1,
+     "team": "Paris Saint-Germain",
+     "sp": 3,
+     "s": 3,
+     "u": 0,
+     "n": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 2,
+     "team": "Aston Villa",
+     "sp": 3,
+     "s": 3,
+     "u": 0,
+     "n": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 3,
+     "team": "FC Liverpool",
+     "sp": 3,
+     "s": 3,
+     "u": 0,
+     "n": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 4,
+     "team": "Real Madrid",
+     "sp": 3,
+     "s": 3,
+     "u": 0,
+     "n": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 5,
+     "team": "Real Betis",
+     "sp": 3,
+     "s": 3,
+     "u": 0,
+     "n": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 6,
+     "team": "VfB Stuttgart",
+     "sp": 3,
+     "s": 2,
+     "u": 1,
+     "n": 0,
+     "pkt": 7
+    },
+    {
+     "platz": 7,
+     "team": "FC Arsenal",
+     "sp": 3,
+     "s": 2,
+     "u": 1,
+     "n": 0,
+     "pkt": 7
+    },
+    {
+     "platz": 8,
+     "team": "FC Barcelona",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 9,
+     "team": "Como 1907",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 10,
+     "team": "Manchester City",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 11,
+     "team": "FC Brügge",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 12,
+     "team": "Sporting Lissabon",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 13,
+     "team": "Borussia Dortmund",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 14,
+     "team": "FC Bayern",
+     "sp": 3,
+     "s": 1,
+     "u": 2,
+     "n": 0,
+     "pkt": 5
+    },
+    {
+     "platz": 15,
+     "team": "AS Rom",
+     "sp": 3,
+     "s": 1,
+     "u": 1,
+     "n": 1,
+     "pkt": 4
+    },
+    {
+     "platz": 16,
+     "team": "Atlético Madrid",
+     "sp": 3,
+     "s": 1,
+     "u": 1,
+     "n": 1,
+     "pkt": 4
+    },
+    {
+     "platz": 17,
+     "team": "Schachtar Donezk",
+     "sp": 3,
+     "s": 1,
+     "u": 1,
+     "n": 1,
+     "pkt": 4
+    },
+    {
+     "platz": 18,
+     "team": "PSV Eindhoven",
+     "sp": 3,
+     "s": 1,
+     "u": 1,
+     "n": 1,
+     "pkt": 4
+    },
+    {
+     "platz": 19,
+     "team": "FC Villarreal",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 20,
+     "team": "Inter Mailand",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 20,
+     "team": "Manchester United",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 22,
+     "team": "SSC Neapel",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 23,
+     "team": "Galatasaray",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 24,
+     "team": "LASK",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 25,
+     "team": "Sabah FK",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 26,
+     "team": "Feyenoord",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 27,
+     "team": "RC Lens",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 28,
+     "team": "Bodø/Glimt",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 29,
+     "team": "AEK Athen",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 29,
+     "team": "RB Leipzig",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 31,
+     "team": "Fenerbahçe",
+     "sp": 3,
+     "s": 0,
+     "u": 2,
+     "n": 1,
+     "pkt": 2
+    },
+    {
+     "platz": 32,
+     "team": "Slavia Prag",
+     "sp": 3,
+     "s": 0,
+     "u": 1,
+     "n": 2,
+     "pkt": 1
+    },
+    {
+     "platz": 33,
+     "team": "Viking Stavanger",
+     "sp": 3,
+     "s": 0,
+     "u": 1,
+     "n": 2,
+     "pkt": 1
+    },
+    {
+     "platz": 34,
+     "team": "FC Porto",
+     "sp": 3,
+     "s": 0,
+     "u": 0,
+     "n": 3,
+     "pkt": 0
+    },
+    {
+     "platz": 35,
+     "team": "OSC Lille",
+     "sp": 3,
+     "s": 0,
+     "u": 0,
+     "n": 3,
+     "pkt": 0
+    },
+    {
+     "platz": 36,
+     "team": "Slovan Bratislava",
+     "sp": 3,
+     "s": 0,
+     "u": 0,
+     "n": 3,
+     "pkt": 0
+    }
+   ]
+  },
+  "nfl": {
+   "stand": "nach Woche 6",
+   "divisionen": [
+    {
+     "name": "AFC East",
+     "teams": [
+      {
+       "team": "Buffalo Bills",
+       "s": 5,
+       "n": 1,
+       "u": 0,
+       "pf": 197,
+       "pa": 171
+      },
+      {
+       "team": "New England Patriots",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 136,
+       "pa": 113
+      },
+      {
+       "team": "New York Jets",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 112,
+       "pa": 122
+      },
+      {
+       "team": "Miami Dolphins",
+       "s": 0,
+       "n": 5,
+       "u": 0,
+       "pf": 70,
+       "pa": 132
+      }
+     ]
+    },
+    {
+     "name": "AFC North",
+     "teams": [
+      {
+       "team": "Cleveland Browns",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 106,
+       "pa": 122
+      },
+      {
+       "team": "Pittsburgh Steelers",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 137,
+       "pa": 128
+      },
+      {
+       "team": "Baltimore Ravens",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 156,
+       "pa": 132
+      },
+      {
+       "team": "Cincinnati Bengals",
+       "s": 3,
+       "n": 2,
+       "u": 0,
+       "pf": 128,
+       "pa": 109
+      }
+     ]
+    },
+    {
+     "name": "AFC South",
+     "teams": [
+      {
+       "team": "Jacksonville Jaguars",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 154,
+       "pa": 104
+      },
+      {
+       "team": "Indianapolis Colts",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 144,
+       "pa": 164
+      },
+      {
+       "team": "Houston Texans",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 144,
+       "pa": 143
+      },
+      {
+       "team": "Tennessee Titans",
+       "s": 1,
+       "n": 5,
+       "u": 0,
+       "pf": 84,
+       "pa": 129
+      }
+     ]
+    },
+    {
+     "name": "AFC West",
+     "teams": [
+      {
+       "team": "Kansas City Chiefs",
+       "s": 5,
+       "n": 0,
+       "u": 0,
+       "pf": 140,
+       "pa": 83
+      },
+      {
+       "team": "Denver Broncos",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 114,
+       "pa": 125
+      },
+      {
+       "team": "Las Vegas Raiders",
+       "s": 3,
+       "n": 3,
+       "u": 0,
+       "pf": 162,
+       "pa": 162
+      },
+      {
+       "team": "Los Angeles Chargers",
+       "s": 0,
+       "n": 6,
+       "u": 0,
+       "pf": 90,
+       "pa": 151
+      }
+     ]
+    },
+    {
+     "name": "NFC East",
+     "teams": [
+      {
+       "team": "New York Giants",
+       "s": 3,
+       "n": 2,
+       "u": 1,
+       "pf": 136,
+       "pa": 140
+      },
+      {
+       "team": "Philadelphia Eagles",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 106,
+       "pa": 137
+      },
+      {
+       "team": "Dallas Cowboys",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 151,
+       "pa": 159
+      },
+      {
+       "team": "Washington Commanders",
+       "s": 1,
+       "n": 4,
+       "u": 1,
+       "pf": 132,
+       "pa": 172
+      }
+     ]
+    },
+    {
+     "name": "NFC North",
+     "teams": [
+      {
+       "team": "Minnesota Vikings",
+       "s": 5,
+       "n": 0,
+       "u": 0,
+       "pf": 109,
+       "pa": 64
+      },
+      {
+       "team": "Green Bay Packers",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 127,
+       "pa": 125
+      },
+      {
+       "team": "Chicago Bears",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 150,
+       "pa": 119
+      },
+      {
+       "team": "Detroit Lions",
+       "s": 3,
+       "n": 2,
+       "u": 0,
+       "pf": 164,
+       "pa": 148
+      }
+     ]
+    },
+    {
+     "name": "NFC South",
+     "teams": [
+      {
+       "team": "Carolina Panthers",
+       "s": 3,
+       "n": 2,
+       "u": 0,
+       "pf": 146,
+       "pa": 123
+      },
+      {
+       "team": "Atlanta Falcons",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 142,
+       "pa": 153
+      },
+      {
+       "team": "New Orleans Saints",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 152,
+       "pa": 178
+      },
+      {
+       "team": "Tampa Bay Buccaneers",
+       "s": 1,
+       "n": 5,
+       "u": 0,
+       "pf": 119,
+       "pa": 138
+      }
+     ]
+    },
+    {
+     "name": "NFC West",
+     "teams": [
+      {
+       "team": "San Francisco 49ers",
+       "s": 6,
+       "n": 0,
+       "u": 0,
+       "pf": 177,
+       "pa": 110
+      },
+      {
+       "team": "Seattle Seahawks",
+       "s": 3,
+       "n": 3,
+       "u": 0,
+       "pf": 148,
+       "pa": 122
+      },
+      {
+       "team": "Arizona Cardinals",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 126,
+       "pa": 178
+      },
+      {
+       "team": "Los Angeles Rams",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 135,
+       "pa": 138
+      }
+     ]
+    }
+   ]
+  }
+ }
 }
 </script>
 
@@ -660,11 +1590,107 @@ function renderNfl() {
   });
 }
 
+// ---------- Tabellen ----------
+let fbAnsicht = "bl", nflAnsicht = "AFC";
+
+function tabelle(kopf, zeilen) {
+  const t = el("table", "tbl");
+  const thead = el("thead"), tr = el("tr");
+  kopf.forEach(([txt, cls, titel]) => { const th = el("th", cls || null, txt); if (titel) th.title = titel; tr.append(th); });
+  thead.append(tr); t.append(thead);
+  const tb = el("tbody");
+  zeilen.forEach(z => tb.append(z));
+  t.append(tb);
+  return t;
+}
+function zeile(zellen, cls) {
+  const tr = el("tr", cls || null);
+  zellen.forEach(([txt, c]) => tr.append(el("td", c || null, txt)));
+  return tr;
+}
+const vz = n => (n > 0 ? "+" : "") + n;
+const istBayern = name => /bayern/i.test(name || "");
+
+function blZone(p) { return p <= 4 ? "z-cl" : p === 5 ? "z-el" : p === 6 ? "z-ecl" : p === 16 ? "z-rel" : p >= 17 ? "z-down" : ""; }
+function clZone(p) { return p <= 8 ? "z-cl" : p <= 24 ? "z-el" : "z-down"; }
+
+function zonen(liste) {
+  const box = document.getElementById("fb-zones");
+  box.replaceChildren();
+  liste.forEach(([farbe, text]) => {
+    const s = el("span"); const i = el("i"); i.style.background = "var(" + farbe + ")";
+    s.append(i, text); box.append(s);
+  });
+}
+
+function renderFbTabelle() {
+  const T = daten.tabellen || {};
+  const box = document.getElementById("fb-table");
+  box.replaceChildren();
+  document.getElementById("seg-bl").setAttribute("aria-pressed", String(fbAnsicht === "bl"));
+  document.getElementById("seg-cl").setAttribute("aria-pressed", String(fbAnsicht === "cl"));
+  const standEl = document.getElementById("fb-stand");
+  if (fbAnsicht === "bl") {
+    const tab = T.bundesliga;
+    if (!tab || !tab.zeilen) { box.append(el("p", "empty", "Tabelle folgt bei der nächsten Aktualisierung.")); standEl.textContent = ""; zonen([]); return; }
+    standEl.textContent = tab.stand || "";
+    const rows = tab.zeilen.map(r => zeile([
+      [String(r.platz), "pos l"], [r.team, "team l"], [String(r.sp)], [String(r.s)], [String(r.u)], [String(r.n)],
+      [r.tore + ":" + r.gegen, "opt"], [vz(r.diff)], [String(r.pkt), "pkt"]
+    ], [blZone(r.platz), istBayern(r.team) ? "me" : ""].filter(Boolean).join(" ")));
+    box.append(tabelle([["Pl.", "l"], ["Verein", "l"], ["Sp", null, "Spiele"], ["S", null, "Siege"], ["U", null, "Unentschieden"], ["N", null, "Niederlagen"], ["Tore", "opt"], ["Diff", null, "Tordifferenz"], ["Pkt", null, "Punkte"]], rows));
+    zonen([["--z1", "Champions League"], ["--z2", "Europa League"], ["--z3", "Conference League"], ["--z4", "Relegation"], ["--z5", "Abstieg"]]);
+  } else {
+    const tab = T.championsLeague;
+    if (!tab || !tab.zeilen) { box.append(el("p", "empty", "Tabelle folgt bei der nächsten Aktualisierung.")); standEl.textContent = ""; zonen([]); return; }
+    standEl.textContent = (tab.stand || "") + " der Ligaphase";
+    const mitToren = tab.zeilen.some(r => r.tore != null);
+    const kopf = [["Pl.", "l"], ["Verein", "l"], ["Sp", null, "Spiele"], ["S", null, "Siege"], ["U", null, "Unentschieden"], ["N", null, "Niederlagen"]];
+    if (mitToren) kopf.push(["Tore", "opt"], ["Diff", null, "Tordifferenz"]);
+    kopf.push(["Pkt", null, "Punkte"]);
+    const rows = tab.zeilen.map(r => {
+      const z = [[String(r.platz), "pos l"], [r.team, "team l"], [String(r.sp)], [String(r.s)], [String(r.u)], [String(r.n)]];
+      if (mitToren) z.push([r.tore + ":" + r.gegen, "opt"], [vz(r.tore - r.gegen)]);
+      z.push([String(r.pkt), "pkt"]);
+      return zeile(z, [clZone(r.platz), istBayern(r.team) ? "me" : ""].filter(Boolean).join(" "));
+    });
+    box.append(tabelle(kopf, rows));
+    zonen([["--z1", "Achtelfinale (1–8)"], ["--z2", "Play-offs (9–24)"], ["--z5", "Ausgeschieden (25–36)"]]);
+  }
+}
+
+function renderNflTabelle() {
+  const tab = (daten.tabellen || {}).nfl;
+  const box = document.getElementById("nfl-table");
+  box.replaceChildren();
+  document.getElementById("seg-afc").setAttribute("aria-pressed", String(nflAnsicht === "AFC"));
+  document.getElementById("seg-nfc").setAttribute("aria-pressed", String(nflAnsicht === "NFC"));
+  const standEl = document.getElementById("nfl-stand");
+  if (!tab || !tab.divisionen) { box.append(el("p", "empty", "Tabelle folgt bei der nächsten Aktualisierung.")); standEl.textContent = ""; return; }
+  standEl.textContent = tab.stand || "";
+  tab.divisionen.filter(d => d.name.startsWith(nflAnsicht)).forEach(d => {
+    box.append(el("div", "div-name", d.name));
+    const rows = d.teams.map(t => {
+      const spiele = t.s + t.n + (t.u || 0);
+      const quote = spiele ? ((t.s + 0.5 * (t.u || 0)) / spiele).toFixed(3).replace(/^0/, "") : "–";
+      return zeile([[t.team, "team l"], [String(t.s)], [String(t.n)], [String(t.u || 0)], [quote], [t.pf != null ? vz(t.pf - t.pa) : "–"]]);
+    });
+    box.append(tabelle([["Team", "l"], ["S", null, "Siege"], ["N", null, "Niederlagen"], ["U", null, "Unentschieden"], ["Quote", null, "Siegquote"], ["Diff", null, "Punktdifferenz"]], rows));
+  });
+}
+
+document.getElementById("seg-bl").addEventListener("click", () => { fbAnsicht = "bl"; renderFbTabelle(); });
+document.getElementById("seg-cl").addEventListener("click", () => { fbAnsicht = "cl"; renderFbTabelle(); });
+document.getElementById("seg-afc").addEventListener("click", () => { nflAnsicht = "AFC"; renderNflTabelle(); });
+document.getElementById("seg-nfc").addEventListener("click", () => { nflAnsicht = "NFC"; renderNflTabelle(); });
+
 function render() {
   const stand = new Date(daten.aktualisiert);
   document.getElementById("stand").textContent = isNaN(stand) ? "" : "Stand: " + fmtStand.format(stand) + " Uhr";
   renderBayern();
   renderNfl();
+  renderFbTabelle();
+  renderNflTabelle();
 }
 
 function zeigeTab(name) {

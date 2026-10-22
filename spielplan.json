@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-22T10:00:00+02:00",
+ "aktualisiert": "2026-10-22T11:00:00+02:00",
  "bayern": [
   {
    "anstoss": "2026-10-25T17:30:00+01:00",
@@ -368,5 +368,858 @@
    ],
    "bestaetigt": true
   }
- ]
+ ],
+ "tabellen": {
+  "bundesliga": {
+   "stand": "nach dem 6. Spieltag",
+   "zeilen": [
+    {
+     "platz": 1,
+     "team": "FC Bayern",
+     "sp": 6,
+     "s": 4,
+     "u": 2,
+     "n": 0,
+     "tore": 22,
+     "gegen": 5,
+     "diff": 17,
+     "pkt": 14
+    },
+    {
+     "platz": 2,
+     "team": "Borussia Dortmund",
+     "sp": 6,
+     "s": 4,
+     "u": 2,
+     "n": 0,
+     "tore": 11,
+     "gegen": 4,
+     "diff": 7,
+     "pkt": 14
+    },
+    {
+     "platz": 3,
+     "team": "SC Freiburg",
+     "sp": 6,
+     "s": 4,
+     "u": 1,
+     "n": 1,
+     "tore": 15,
+     "gegen": 6,
+     "diff": 9,
+     "pkt": 13
+    },
+    {
+     "platz": 4,
+     "team": "Bayer Leverkusen",
+     "sp": 6,
+     "s": 4,
+     "u": 1,
+     "n": 1,
+     "tore": 16,
+     "gegen": 9,
+     "diff": 7,
+     "pkt": 13
+    },
+    {
+     "platz": 5,
+     "team": "1. FSV Mainz 05",
+     "sp": 6,
+     "s": 3,
+     "u": 1,
+     "n": 2,
+     "tore": 14,
+     "gegen": 10,
+     "diff": 4,
+     "pkt": 10
+    },
+    {
+     "platz": 6,
+     "team": "SV Elversberg",
+     "sp": 6,
+     "s": 3,
+     "u": 1,
+     "n": 2,
+     "tore": 12,
+     "gegen": 11,
+     "diff": 1,
+     "pkt": 10
+    },
+    {
+     "platz": 7,
+     "team": "RB Leipzig",
+     "sp": 6,
+     "s": 3,
+     "u": 0,
+     "n": 3,
+     "tore": 16,
+     "gegen": 11,
+     "diff": 5,
+     "pkt": 9
+    },
+    {
+     "platz": 8,
+     "team": "Werder Bremen",
+     "sp": 6,
+     "s": 2,
+     "u": 3,
+     "n": 1,
+     "tore": 12,
+     "gegen": 12,
+     "diff": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 9,
+     "team": "Hamburger SV",
+     "sp": 6,
+     "s": 3,
+     "u": 0,
+     "n": 3,
+     "tore": 6,
+     "gegen": 15,
+     "diff": -9,
+     "pkt": 9
+    },
+    {
+     "platz": 10,
+     "team": "FC Augsburg",
+     "sp": 6,
+     "s": 2,
+     "u": 2,
+     "n": 2,
+     "tore": 16,
+     "gegen": 12,
+     "diff": 4,
+     "pkt": 8
+    },
+    {
+     "platz": 11,
+     "team": "Eintracht Frankfurt",
+     "sp": 6,
+     "s": 2,
+     "u": 2,
+     "n": 2,
+     "tore": 10,
+     "gegen": 16,
+     "diff": -6,
+     "pkt": 8
+    },
+    {
+     "platz": 12,
+     "team": "1. FC Köln",
+     "sp": 6,
+     "s": 2,
+     "u": 1,
+     "n": 3,
+     "tore": 8,
+     "gegen": 11,
+     "diff": -3,
+     "pkt": 7
+    },
+    {
+     "platz": 13,
+     "team": "VfB Stuttgart",
+     "sp": 6,
+     "s": 2,
+     "u": 0,
+     "n": 4,
+     "tore": 8,
+     "gegen": 10,
+     "diff": -2,
+     "pkt": 6
+    },
+    {
+     "platz": 14,
+     "team": "TSG Hoffenheim",
+     "sp": 6,
+     "s": 2,
+     "u": 0,
+     "n": 4,
+     "tore": 11,
+     "gegen": 14,
+     "diff": -3,
+     "pkt": 6
+    },
+    {
+     "platz": 15,
+     "team": "FC Schalke 04",
+     "sp": 6,
+     "s": 1,
+     "u": 2,
+     "n": 3,
+     "tore": 4,
+     "gegen": 7,
+     "diff": -3,
+     "pkt": 5
+    },
+    {
+     "platz": 16,
+     "team": "SC Paderborn 07",
+     "sp": 6,
+     "s": 1,
+     "u": 2,
+     "n": 3,
+     "tore": 5,
+     "gegen": 9,
+     "diff": -4,
+     "pkt": 5
+    },
+    {
+     "platz": 17,
+     "team": "1. FC Union Berlin",
+     "sp": 6,
+     "s": 1,
+     "u": 2,
+     "n": 3,
+     "tore": 5,
+     "gegen": 17,
+     "diff": -12,
+     "pkt": 5
+    },
+    {
+     "platz": 18,
+     "team": "Borussia Mönchengladbach",
+     "sp": 6,
+     "s": 0,
+     "u": 0,
+     "n": 6,
+     "tore": 8,
+     "gegen": 20,
+     "diff": -12,
+     "pkt": 0
+    }
+   ]
+  },
+  "championsLeague": {
+   "stand": "nach dem 3. Spieltag",
+   "zeilen": [
+    {
+     "platz": 1,
+     "team": "Paris Saint-Germain",
+     "sp": 3,
+     "s": 3,
+     "u": 0,
+     "n": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 2,
+     "team": "Aston Villa",
+     "sp": 3,
+     "s": 3,
+     "u": 0,
+     "n": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 3,
+     "team": "FC Liverpool",
+     "sp": 3,
+     "s": 3,
+     "u": 0,
+     "n": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 4,
+     "team": "Real Madrid",
+     "sp": 3,
+     "s": 3,
+     "u": 0,
+     "n": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 5,
+     "team": "Real Betis",
+     "sp": 3,
+     "s": 3,
+     "u": 0,
+     "n": 0,
+     "pkt": 9
+    },
+    {
+     "platz": 6,
+     "team": "VfB Stuttgart",
+     "sp": 3,
+     "s": 2,
+     "u": 1,
+     "n": 0,
+     "pkt": 7
+    },
+    {
+     "platz": 7,
+     "team": "FC Arsenal",
+     "sp": 3,
+     "s": 2,
+     "u": 1,
+     "n": 0,
+     "pkt": 7
+    },
+    {
+     "platz": 8,
+     "team": "FC Barcelona",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 9,
+     "team": "Como 1907",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 10,
+     "team": "Manchester City",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 11,
+     "team": "FC Brügge",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 12,
+     "team": "Sporting Lissabon",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 13,
+     "team": "Borussia Dortmund",
+     "sp": 3,
+     "s": 2,
+     "u": 0,
+     "n": 1,
+     "pkt": 6
+    },
+    {
+     "platz": 14,
+     "team": "FC Bayern",
+     "sp": 3,
+     "s": 1,
+     "u": 2,
+     "n": 0,
+     "pkt": 5
+    },
+    {
+     "platz": 15,
+     "team": "AS Rom",
+     "sp": 3,
+     "s": 1,
+     "u": 1,
+     "n": 1,
+     "pkt": 4
+    },
+    {
+     "platz": 16,
+     "team": "Atlético Madrid",
+     "sp": 3,
+     "s": 1,
+     "u": 1,
+     "n": 1,
+     "pkt": 4
+    },
+    {
+     "platz": 17,
+     "team": "Schachtar Donezk",
+     "sp": 3,
+     "s": 1,
+     "u": 1,
+     "n": 1,
+     "pkt": 4
+    },
+    {
+     "platz": 18,
+     "team": "PSV Eindhoven",
+     "sp": 3,
+     "s": 1,
+     "u": 1,
+     "n": 1,
+     "pkt": 4
+    },
+    {
+     "platz": 19,
+     "team": "FC Villarreal",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 20,
+     "team": "Inter Mailand",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 20,
+     "team": "Manchester United",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 22,
+     "team": "SSC Neapel",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 23,
+     "team": "Galatasaray",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 24,
+     "team": "LASK",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 25,
+     "team": "Sabah FK",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 26,
+     "team": "Feyenoord",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 27,
+     "team": "RC Lens",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 28,
+     "team": "Bodø/Glimt",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 29,
+     "team": "AEK Athen",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 29,
+     "team": "RB Leipzig",
+     "sp": 3,
+     "s": 1,
+     "u": 0,
+     "n": 2,
+     "pkt": 3
+    },
+    {
+     "platz": 31,
+     "team": "Fenerbahçe",
+     "sp": 3,
+     "s": 0,
+     "u": 2,
+     "n": 1,
+     "pkt": 2
+    },
+    {
+     "platz": 32,
+     "team": "Slavia Prag",
+     "sp": 3,
+     "s": 0,
+     "u": 1,
+     "n": 2,
+     "pkt": 1
+    },
+    {
+     "platz": 33,
+     "team": "Viking Stavanger",
+     "sp": 3,
+     "s": 0,
+     "u": 1,
+     "n": 2,
+     "pkt": 1
+    },
+    {
+     "platz": 34,
+     "team": "FC Porto",
+     "sp": 3,
+     "s": 0,
+     "u": 0,
+     "n": 3,
+     "pkt": 0
+    },
+    {
+     "platz": 35,
+     "team": "OSC Lille",
+     "sp": 3,
+     "s": 0,
+     "u": 0,
+     "n": 3,
+     "pkt": 0
+    },
+    {
+     "platz": 36,
+     "team": "Slovan Bratislava",
+     "sp": 3,
+     "s": 0,
+     "u": 0,
+     "n": 3,
+     "pkt": 0
+    }
+   ]
+  },
+  "nfl": {
+   "stand": "nach Woche 6",
+   "divisionen": [
+    {
+     "name": "AFC East",
+     "teams": [
+      {
+       "team": "Buffalo Bills",
+       "s": 5,
+       "n": 1,
+       "u": 0,
+       "pf": 197,
+       "pa": 171
+      },
+      {
+       "team": "New England Patriots",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 136,
+       "pa": 113
+      },
+      {
+       "team": "New York Jets",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 112,
+       "pa": 122
+      },
+      {
+       "team": "Miami Dolphins",
+       "s": 0,
+       "n": 5,
+       "u": 0,
+       "pf": 70,
+       "pa": 132
+      }
+     ]
+    },
+    {
+     "name": "AFC North",
+     "teams": [
+      {
+       "team": "Cleveland Browns",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 106,
+       "pa": 122
+      },
+      {
+       "team": "Pittsburgh Steelers",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 137,
+       "pa": 128
+      },
+      {
+       "team": "Baltimore Ravens",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 156,
+       "pa": 132
+      },
+      {
+       "team": "Cincinnati Bengals",
+       "s": 3,
+       "n": 2,
+       "u": 0,
+       "pf": 128,
+       "pa": 109
+      }
+     ]
+    },
+    {
+     "name": "AFC South",
+     "teams": [
+      {
+       "team": "Jacksonville Jaguars",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 154,
+       "pa": 104
+      },
+      {
+       "team": "Indianapolis Colts",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 144,
+       "pa": 164
+      },
+      {
+       "team": "Houston Texans",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 144,
+       "pa": 143
+      },
+      {
+       "team": "Tennessee Titans",
+       "s": 1,
+       "n": 5,
+       "u": 0,
+       "pf": 84,
+       "pa": 129
+      }
+     ]
+    },
+    {
+     "name": "AFC West",
+     "teams": [
+      {
+       "team": "Kansas City Chiefs",
+       "s": 5,
+       "n": 0,
+       "u": 0,
+       "pf": 140,
+       "pa": 83
+      },
+      {
+       "team": "Denver Broncos",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 114,
+       "pa": 125
+      },
+      {
+       "team": "Las Vegas Raiders",
+       "s": 3,
+       "n": 3,
+       "u": 0,
+       "pf": 162,
+       "pa": 162
+      },
+      {
+       "team": "Los Angeles Chargers",
+       "s": 0,
+       "n": 6,
+       "u": 0,
+       "pf": 90,
+       "pa": 151
+      }
+     ]
+    },
+    {
+     "name": "NFC East",
+     "teams": [
+      {
+       "team": "New York Giants",
+       "s": 3,
+       "n": 2,
+       "u": 1,
+       "pf": 136,
+       "pa": 140
+      },
+      {
+       "team": "Philadelphia Eagles",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 106,
+       "pa": 137
+      },
+      {
+       "team": "Dallas Cowboys",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 151,
+       "pa": 159
+      },
+      {
+       "team": "Washington Commanders",
+       "s": 1,
+       "n": 4,
+       "u": 1,
+       "pf": 132,
+       "pa": 172
+      }
+     ]
+    },
+    {
+     "name": "NFC North",
+     "teams": [
+      {
+       "team": "Minnesota Vikings",
+       "s": 5,
+       "n": 0,
+       "u": 0,
+       "pf": 109,
+       "pa": 64
+      },
+      {
+       "team": "Green Bay Packers",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 127,
+       "pa": 125
+      },
+      {
+       "team": "Chicago Bears",
+       "s": 4,
+       "n": 2,
+       "u": 0,
+       "pf": 150,
+       "pa": 119
+      },
+      {
+       "team": "Detroit Lions",
+       "s": 3,
+       "n": 2,
+       "u": 0,
+       "pf": 164,
+       "pa": 148
+      }
+     ]
+    },
+    {
+     "name": "NFC South",
+     "teams": [
+      {
+       "team": "Carolina Panthers",
+       "s": 3,
+       "n": 2,
+       "u": 0,
+       "pf": 146,
+       "pa": 123
+      },
+      {
+       "team": "Atlanta Falcons",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 142,
+       "pa": 153
+      },
+      {
+       "team": "New Orleans Saints",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 152,
+       "pa": 178
+      },
+      {
+       "team": "Tampa Bay Buccaneers",
+       "s": 1,
+       "n": 5,
+       "u": 0,
+       "pf": 119,
+       "pa": 138
+      }
+     ]
+    },
+    {
+     "name": "NFC West",
+     "teams": [
+      {
+       "team": "San Francisco 49ers",
+       "s": 6,
+       "n": 0,
+       "u": 0,
+       "pf": 177,
+       "pa": 110
+      },
+      {
+       "team": "Seattle Seahawks",
+       "s": 3,
+       "n": 3,
+       "u": 0,
+       "pf": 148,
+       "pa": 122
+      },
+      {
+       "team": "Arizona Cardinals",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 126,
+       "pa": 178
+      },
+      {
+       "team": "Los Angeles Rams",
+       "s": 2,
+       "n": 4,
+       "u": 0,
+       "pf": 135,
+       "pa": 138
+      }
+     ]
+    }
+   ]
+  }
+ }
 }
