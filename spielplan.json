@@ -1,0 +1,372 @@
+{
+ "aktualisiert": "2026-10-22T09:30:00+02:00",
+ "bayern": [
+  {
+   "anstoss": "2026-10-25T17:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "7. Spieltag",
+   "heim": "SC Freiburg",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "DAZN",
+     "art": "pay",
+     "info": "exklusiv"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-28T20:45:00+01:00",
+   "wettbewerb": "DFB-Pokal",
+   "runde": "2. Runde",
+   "heim": "FC Bayern",
+   "gast": "1. FC Magdeburg",
+   "sender": [
+    {
+     "name": "ARD",
+     "art": "free",
+     "info": "Das Erste & ARD Mediathek"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Go / WOW"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-31T18:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "8. Spieltag",
+   "heim": "FC Bayern",
+   "gast": "Borussia Dortmund",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Topspiel · Sky Go / WOW"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-03T21:00:00+01:00",
+   "wettbewerb": "Champions League",
+   "runde": "Ligaphase, 4. Spieltag",
+   "heim": "Atlético Madrid",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "Prime Video",
+     "art": "pay",
+     "info": "exklusiv"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-07T15:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "9. Spieltag",
+   "heim": "1. FSV Mainz 05",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Einzelspiel"
+    },
+    {
+     "name": "DAZN",
+     "art": "pay",
+     "info": "nur Konferenz"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-20T20:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "10. Spieltag",
+   "heim": "FC Bayern",
+   "gast": "1. FC Köln",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Freitagsspiel"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-25T21:00:00+01:00",
+   "wettbewerb": "Champions League",
+   "runde": "Ligaphase, 5. Spieltag",
+   "heim": "OSC Lille",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "DAZN",
+     "art": "pay",
+     "info": ""
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-28T15:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "11. Spieltag",
+   "heim": "Hamburger SV",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Einzelspiel"
+    },
+    {
+     "name": "DAZN",
+     "art": "pay",
+     "info": "nur Konferenz"
+    }
+   ],
+   "bestaetigt": false
+  }
+ ],
+ "nfl": [
+  {
+   "anstoss": "2026-10-23T02:15:00+02:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Chicago Bears",
+   "gast": "New England Patriots",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T14:30:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "New Orleans Saints",
+   "gast": "Pittsburgh Steelers",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Baltimore Ravens",
+   "gast": "Cincinnati Bengals",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Atlanta Falcons",
+   "gast": "San Francisco 49ers",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Minnesota Vikings",
+   "gast": "Indianapolis Colts",
+   "sender": [
+    {
+     "name": "RTL+",
+     "art": "pay",
+     "info": "nur Stream"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Tampa Bay Buccaneers",
+   "gast": "Carolina Panthers",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "New York Giants",
+   "gast": "Houston Texans",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Miami Dolphins",
+   "gast": "New York Jets",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Cleveland Browns",
+   "gast": "Tennessee Titans",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T21:05:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Denver Broncos",
+   "gast": "Arizona Cardinals",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T21:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Detroit Lions",
+   "gast": "Green Bay Packers",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T21:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Las Vegas Raiders",
+   "gast": "Los Angeles Rams",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-26T01:20:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Seattle Seahawks",
+   "gast": "Kansas City Chiefs",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-27T01:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Philadelphia Eagles",
+   "gast": "Dallas Cowboys",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  }
+ ]
+}

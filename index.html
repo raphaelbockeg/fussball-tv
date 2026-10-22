@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>body{margin:0}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Wo läuft Bayern?</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: eine schmale Spalte wie ein Stadion-Anzeigeblatt – Reiter oben, darunter das nächste Spiel groß und die Vorschau als Liste */
+:root {
+  --bg: #f3f4f7;
+  --surface: #ffffff;
+  --fg: #16181f;
+  --muted: #5d6273;
+  --line: #dfe1e8;
+  --red: #c8102e;
+  --red-soft: #fbe7ea;
+  --navy: #1b3a7a;
+  --free: #1d7a46;
+  --free-soft: #e2f3e8;
+  --warn: #8a5a00;
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111319; --surface: #1a1d26; --fg: #eef0f5; --muted: #a0a6b8; --line: #2c303d;
+    --red: #ff5a6e; --red-soft: #3a1820; --navy: #8fb0f5; --free: #5fd394; --free-soft: #15301f; --warn: #f0b85a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111319; --surface: #1a1d26; --fg: #eef0f5; --muted: #a0a6b8; --line: #2c303d;
+  --red: #ff5a6e; --red-soft: #3a1820; --navy: #8fb0f5; --free: #5fd394; --free-soft: #15301f; --warn: #f0b85a;
+  color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--font-body); font-size: 16px; line-height: 1.45;
+}
+.wrap {
+  max-width: 640px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 40px;
+  display: flex; flex-direction: column; gap: 18px;
+}
+header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+h1 {
+  font-family: var(--font-display); font-weight: 800; font-size: 2.1rem; line-height: 1;
+  margin: 0; letter-spacing: .01em; text-transform: uppercase; text-wrap: balance;
+}
+h1 span { color: var(--accent, var(--red)); }
+.stand { font-size: .82rem; color: var(--muted); }
+
+.tabs { display: flex; gap: 6px; border-bottom: 2px solid var(--line); }
+.tab {
+  appearance: none; background: none; border: 0; cursor: pointer;
+  font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--muted);
+  padding: 8px 14px; margin-bottom: -2px; border-bottom: 3px solid transparent;
+}
+.tab[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent, var(--red)); }
+.tab:focus-visible { outline: 2px solid var(--accent, var(--red)); outline-offset: 2px; border-radius: 4px; }
+body.nfl { --accent: var(--navy); }
+
+.panel { display: flex; flex-direction: column; gap: 18px; }
+
+.next {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+  padding: 18px; display: flex; flex-direction: column; gap: 12px;
+}
+.eyebrow {
+  font-family: var(--font-display); font-weight: 700; font-size: .85rem;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--accent, var(--red));
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+}
+.eyebrow .comp { color: var(--muted); }
+.teams {
+  font-family: var(--font-display); font-weight: 700; font-size: 1.9rem; line-height: 1.05;
+  text-wrap: balance;
+}
+.vs { color: var(--muted); font-weight: 600; padding: 0 .2em; }
+.when { font-size: 1.05rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.when .rel { color: var(--accent, var(--red)); }
+
+.channels { display: flex; flex-wrap: wrap; gap: 8px; }
+.ch {
+  display: inline-flex; flex-direction: column; gap: 1px;
+  padding: 8px 12px; border-radius: 10px;
+  background: var(--red-soft); color: var(--fg);
+}
+.ch b { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; line-height: 1.05; }
+.ch small { font-size: .78rem; color: var(--muted); }
+.ch.free { background: var(--free-soft); }
+.ch.free b { color: var(--free); }
+.next .ch b { font-size: 1.6rem; }
+
+.hint { font-size: .85rem; color: var(--muted); margin: 0; }
+.hint.unsure { color: var(--warn); }
+
+h2 {
+  font-family: var(--font-display); font-weight: 700; font-size: 1rem; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--muted); margin: 6px 0 0;
+}
+.list { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.row {
+  display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 14px;
+  padding-block: 14px; border-bottom: 1px solid var(--line);
+}
+.date { font-variant-numeric: tabular-nums; display: flex; flex-direction: column; }
+.date .d { font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; line-height: 1; }
+.date .t { font-size: .85rem; color: var(--muted); }
+.info { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.info .comp { font-size: .78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; font-weight: 600; }
+.info .m { font-weight: 700; font-size: 1.05rem; }
+.info .channels .ch { padding: 4px 10px; flex-direction: row; align-items: baseline; gap: 6px; }
+.info .channels .ch b { font-size: 1.1rem; }
+
+.day {
+  font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; letter-spacing: .04em;
+  padding: 14px 0 2px; color: var(--navy);
+}
+.nflrow { grid-template-columns: 54px minmax(0, 1fr); }
+.nflrow .date .d { font-size: 1.15rem; }
+
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: .8rem; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+.legend .p { background: var(--red); }
+.legend .f { background: var(--free); }
+footer { font-size: .8rem; color: var(--muted); display: flex; flex-direction: column; gap: 4px; }
+.empty { color: var(--muted); }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1 id="titel">Wo läuft <span>Bayern</span>?</h1>
+    <div class="stand" id="stand"></div>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="Sportart">
+    <button class="tab" role="tab" id="tab-bayern" aria-controls="p-bayern" aria-selected="true">FC Bayern</button>
+    <button class="tab" role="tab" id="tab-nfl" aria-controls="p-nfl" aria-selected="false">NFL</button>
+  </div>
+
+  <section class="panel" id="p-bayern" role="tabpanel" aria-labelledby="tab-bayern">
+    <div class="next" id="next" aria-live="polite"></div>
+    <h2>Danach</h2>
+    <div class="list" id="list"></div>
+  </section>
+
+  <section class="panel" id="p-nfl" role="tabpanel" aria-labelledby="tab-nfl" hidden>
+    <div class="list" id="nfl-list"></div>
+    <p class="hint">Alle NFL-Spiele laufen zusätzlich live im NFL Game Pass (Abo über DAZN). Welche Spiele RTL und Sky zeigen, steht meist erst in der jeweiligen Spielwoche fest.</p>
+  </section>
+
+  <div class="legend">
+    <span><i class="p"></i>Bezahl-Abo nötig</span>
+    <span><i class="f"></i>Free-TV, kostenlos</span>
+  </div>
+  <footer>
+    <span>Übertragungen in Deutschland. FC Bayern: nur Herren-Profis, alle Wettbewerbe. Alle Zeiten deutsche Zeit.</span>
+    <span>Kurzfristige Änderungen sind möglich. Angaben ohne Gewähr.</span>
+  </footer>
+</div>
+
+<!-- SPIELPLAN: Dieser Block wird automatisch aktualisiert -->
+<script type="application/json" id="spielplan">
+{
+ "aktualisiert": "2026-10-22T09:30:00+02:00",
+ "bayern": [
+  {
+   "anstoss": "2026-10-25T17:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "7. Spieltag",
+   "heim": "SC Freiburg",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "DAZN",
+     "art": "pay",
+     "info": "exklusiv"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-28T20:45:00+01:00",
+   "wettbewerb": "DFB-Pokal",
+   "runde": "2. Runde",
+   "heim": "FC Bayern",
+   "gast": "1. FC Magdeburg",
+   "sender": [
+    {
+     "name": "ARD",
+     "art": "free",
+     "info": "Das Erste & ARD Mediathek"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Go / WOW"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-31T18:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "8. Spieltag",
+   "heim": "FC Bayern",
+   "gast": "Borussia Dortmund",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Topspiel · Sky Go / WOW"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-03T21:00:00+01:00",
+   "wettbewerb": "Champions League",
+   "runde": "Ligaphase, 4. Spieltag",
+   "heim": "Atlético Madrid",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "Prime Video",
+     "art": "pay",
+     "info": "exklusiv"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-07T15:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "9. Spieltag",
+   "heim": "1. FSV Mainz 05",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Einzelspiel"
+    },
+    {
+     "name": "DAZN",
+     "art": "pay",
+     "info": "nur Konferenz"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-20T20:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "10. Spieltag",
+   "heim": "FC Bayern",
+   "gast": "1. FC Köln",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Freitagsspiel"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-25T21:00:00+01:00",
+   "wettbewerb": "Champions League",
+   "runde": "Ligaphase, 5. Spieltag",
+   "heim": "OSC Lille",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "DAZN",
+     "art": "pay",
+     "info": ""
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-28T15:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "11. Spieltag",
+   "heim": "Hamburger SV",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Einzelspiel"
+    },
+    {
+     "name": "DAZN",
+     "art": "pay",
+     "info": "nur Konferenz"
+    }
+   ],
+   "bestaetigt": false
+  }
+ ],
+ "nfl": [
+  {
+   "anstoss": "2026-10-23T02:15:00+02:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Chicago Bears",
+   "gast": "New England Patriots",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T14:30:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "New Orleans Saints",
+   "gast": "Pittsburgh Steelers",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Baltimore Ravens",
+   "gast": "Cincinnati Bengals",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Atlanta Falcons",
+   "gast": "San Francisco 49ers",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Minnesota Vikings",
+   "gast": "Indianapolis Colts",
+   "sender": [
+    {
+     "name": "RTL+",
+     "art": "pay",
+     "info": "nur Stream"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Tampa Bay Buccaneers",
+   "gast": "Carolina Panthers",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "New York Giants",
+   "gast": "Houston Texans",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Miami Dolphins",
+   "gast": "New York Jets",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T18:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Cleveland Browns",
+   "gast": "Tennessee Titans",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T21:05:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Denver Broncos",
+   "gast": "Arizona Cardinals",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T21:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Detroit Lions",
+   "gast": "Green Bay Packers",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-25T21:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Las Vegas Raiders",
+   "gast": "Los Angeles Rams",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-26T01:20:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Seattle Seahawks",
+   "gast": "Kansas City Chiefs",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-27T01:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 7",
+   "heim": "Philadelphia Eagles",
+   "gast": "Dallas Cowboys",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": "RTL+ Stream"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "WOW / Sky Go"
+    }
+   ],
+   "bestaetigt": true
+  }
+ ]
+}
+</script>
+
+<script>
+const DATEN_URL = "https://raw.githubusercontent.com/raphaelbockeg/fussball-tv/main/spielplan.json";
+let daten = { bayern: [], nfl: [] };
+try { daten = JSON.parse(document.getElementById("spielplan").textContent); } catch (e) {}
+
+const TZ = "Europe/Berlin";
+const fmtTag = new Intl.DateTimeFormat("de-DE", { timeZone: TZ, weekday: "short", day: "2-digit", month: "2-digit" });
+const fmtLang = new Intl.DateTimeFormat("de-DE", { timeZone: TZ, weekday: "long", day: "numeric", month: "long" });
+const fmtZeit = new Intl.DateTimeFormat("de-DE", { timeZone: TZ, hour: "2-digit", minute: "2-digit" });
+const fmtStand = new Intl.DateTimeFormat("de-DE", { timeZone: TZ, day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" });
+const dayKey = d => new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(d);
+
+function relativ(d) {
+  const now = new Date();
+  if (d <= now) return "läuft gerade";
+  const tage = Math.round((new Date(dayKey(d)) - new Date(dayKey(now))) / 864e5);
+  if (tage === 0) return "heute";
+  if (tage === 1) return "morgen";
+  return "in " + tage + " Tagen";
+}
+
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+
+function senderChips(sender) {
+  const box = el("div", "channels");
+  (sender || []).forEach(s => {
+    const c = el("div", "ch" + (s.art === "free" ? " free" : ""));
+    c.append(el("b", null, s.name));
+    const sub = [s.art === "free" ? "kostenlos" : "", s.info || ""].filter(Boolean).join(" · ");
+    if (sub) c.append(el("small", null, sub));
+    box.append(c);
+  });
+  if (!sender || !sender.length) box.append(el("span", "hint", "Sender noch offen"));
+  return box;
+}
+
+function paarung(heim, gast, trenner) {
+  const f = document.createDocumentFragment();
+  f.append(heim, el("span", "vs", trenner), gast);
+  return f;
+}
+
+function kommend(liste, dauerStunden) {
+  const now = Date.now();
+  return (liste || [])
+    .map(s => ({ ...s, d: new Date(s.anstoss) }))
+    .filter(s => !isNaN(s.d) && s.d.getTime() + dauerStunden * 3600e3 > now)
+    .sort((a, b) => a.d - b.d);
+}
+
+function renderBayern() {
+  const spiele = kommend(daten.bayern, 2.5).slice(0, 5);
+  const next = document.getElementById("next");
+  const list = document.getElementById("list");
+  next.replaceChildren(); list.replaceChildren();
+  if (!spiele.length) {
+    next.append(el("p", "empty", "Keine kommenden Spiele hinterlegt. Die Liste wird bei der nächsten Aktualisierung aufgefüllt."));
+    return;
+  }
+  const [n, ...rest] = spiele;
+  const eb = el("div", "eyebrow");
+  eb.append(el("span", null, "Nächstes Spiel"), el("span", "comp", n.wettbewerb + " · " + n.runde));
+  const teams = el("div", "teams"); teams.append(paarung(n.heim, n.gast, "–"));
+  const when = el("div", "when");
+  when.append(el("span", "rel", relativ(n.d)), " · " + fmtLang.format(n.d) + ", " + fmtZeit.format(n.d) + " Uhr");
+  next.append(eb, teams, when, senderChips(n.sender));
+  if (!n.bestaetigt) next.append(el("p", "hint unsure", "Sender abgeleitet aus der TV-Rechteverteilung, noch nicht offiziell bestätigt."));
+
+  rest.forEach(s => {
+    const row = el("div", "row");
+    const dt = el("div", "date");
+    dt.append(el("span", "d", fmtTag.format(s.d)), el("span", "t", fmtZeit.format(s.d) + " Uhr"));
+    const info = el("div", "info");
+    const m = el("div", "m"); m.append(paarung(s.heim, s.gast, "–"));
+    info.append(el("div", "comp", s.wettbewerb + " · " + s.runde), m, senderChips(s.sender));
+    if (!s.bestaetigt) info.append(el("p", "hint unsure", "Sender laut Rechteverteilung, noch nicht bestätigt"));
+    row.append(dt, info);
+    list.append(row);
+  });
+  if (!rest.length) list.append(el("p", "empty", "Weitere Spiele folgen bei der nächsten Aktualisierung."));
+}
+
+function renderNfl() {
+  const spiele = kommend(daten.nfl, 4).slice(0, 40);
+  const list = document.getElementById("nfl-list");
+  list.replaceChildren();
+  if (!spiele.length) {
+    list.append(el("p", "empty", "Keine kommenden NFL-Spiele hinterlegt. Die Liste wird bei der nächsten Aktualisierung aufgefüllt."));
+    return;
+  }
+  let tag = "";
+  spiele.forEach(s => {
+    const k = dayKey(s.d);
+    if (k !== tag) {
+      tag = k;
+      const rel = relativ(s.d);
+      list.append(el("div", "day", fmtLang.format(s.d) + (rel === "heute" || rel === "morgen" ? " · " + rel : "")));
+    }
+    const row = el("div", "row nflrow");
+    const dt = el("div", "date");
+    dt.append(el("span", "d", fmtZeit.format(s.d)), el("span", "t", "Uhr"));
+    const info = el("div", "info");
+    const m = el("div", "m"); m.append(paarung(s.gast, s.heim, "@"));
+    info.append(el("div", "comp", s.runde), m, senderChips(s.sender));
+    if (!s.bestaetigt) info.append(el("p", "hint unsure", "Sender noch nicht bestätigt"));
+    row.append(dt, info);
+    list.append(row);
+  });
+}
+
+function render() {
+  const stand = new Date(daten.aktualisiert);
+  document.getElementById("stand").textContent = isNaN(stand) ? "" : "Stand: " + fmtStand.format(stand) + " Uhr";
+  renderBayern();
+  renderNfl();
+}
+
+function zeigeTab(name) {
+  const nfl = name === "nfl";
+  document.body.classList.toggle("nfl", nfl);
+  document.getElementById("tab-bayern").setAttribute("aria-selected", String(!nfl));
+  document.getElementById("tab-nfl").setAttribute("aria-selected", String(nfl));
+  document.getElementById("p-bayern").hidden = nfl;
+  document.getElementById("p-nfl").hidden = !nfl;
+  document.getElementById("titel").innerHTML = nfl ? "Wo läuft die <span>NFL</span>?" : "Wo läuft <span>Bayern</span>?";
+  try { localStorage.setItem("tab", name); } catch (e) {}
+}
+document.getElementById("tab-bayern").addEventListener("click", () => zeigeTab("bayern"));
+document.getElementById("tab-nfl").addEventListener("click", () => zeigeTab("nfl"));
+
+let start = "bayern";
+try { start = localStorage.getItem("tab") || start; } catch (e) {}
+const h = (location.hash || "").replace("#", "");
+if (h === "nfl" || h === "bayern") start = h;
+zeigeTab(start);
+
+render();
+setInterval(render, 60e3);
+
+// Neueste Daten von GitHub holen (klappt auf der eigenen Webseite; wenn nicht, bleiben die eingebetteten Daten)
+fetch(DATEN_URL + "?t=" + Date.now(), { cache: "no-store" })
+  .then(r => r.ok ? r.json() : null)
+  .then(d => {
+    if (d && Array.isArray(d.bayern) && Array.isArray(d.nfl) &&
+        !(new Date(d.aktualisiert) < new Date(daten.aktualisiert))) {
+      daten = d; render();
+    }
+  })
+  .catch(() => {});
+</script>
+
+</body>
+</html>
