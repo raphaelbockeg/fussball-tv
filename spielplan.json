@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-22T11:00:00+02:00",
+ "aktualisiert": "2026-10-23T09:00:00+02:00",
  "bayern": [
   {
    "anstoss": "2026-10-25T17:30:00+01:00",
@@ -138,26 +138,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-10-23T02:15:00+02:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Chicago Bears",
-   "gast": "New England Patriots",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-10-25T14:30:00+01:00",
    "wettbewerb": "NFL",
@@ -367,6 +347,26 @@
     }
    ],
    "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-10-30T01:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Green Bay Packers",
+   "gast": "Carolina Panthers",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL"
+    }
+   ],
+   "bestaetigt": false
   }
  ],
  "tabellen": {
