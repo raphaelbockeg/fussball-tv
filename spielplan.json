@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-23T09:00:00+02:00",
+ "aktualisiert": "2026-10-23T09:30:00+02:00",
  "bayern": [
   {
    "anstoss": "2026-10-25T17:30:00+01:00",
@@ -359,14 +359,204 @@
      "name": "RTL",
      "art": "free",
      "info": ""
-    },
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-01T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Buffalo Bills",
+   "gast": "Baltimore Ravens",
+   "sender": [
     {
-     "name": "Sky",
+     "name": "NFL Game Pass",
      "art": "pay",
-     "info": "Sky Sport NFL"
+     "info": "über DAZN"
     }
    ],
    "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-01T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Cincinnati Bengals",
+   "gast": "Tennessee Titans",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-01T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Dallas Cowboys",
+   "gast": "Arizona Cardinals",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-01T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Detroit Lions",
+   "gast": "Minnesota Vikings",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-01T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Jacksonville Jaguars",
+   "gast": "Indianapolis Colts",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-01T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "New York Jets",
+   "gast": "Las Vegas Raiders",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-01T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Pittsburgh Steelers",
+   "gast": "Cleveland Browns",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-01T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Tampa Bay Buccaneers",
+   "gast": "Atlanta Falcons",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-01T22:05:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Los Angeles Rams",
+   "gast": "Los Angeles Chargers",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-01T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Denver Broncos",
+   "gast": "Kansas City Chiefs",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-01T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Miami Dolphins",
+   "gast": "New England Patriots",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-02T02:20:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Washington Commanders",
+   "gast": "Philadelphia Eagles",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-03T02:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 8",
+   "heim": "Seattle Seahawks",
+   "gast": "Chicago Bears",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
   }
  ],
  "tabellen": {
@@ -921,7 +1111,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 6",
+   "stand": "nach Woche 6 und dem Thursday Night Game der Woche 7",
    "divisionen": [
     {
      "name": "AFC East",
@@ -937,10 +1127,10 @@
       {
        "team": "New England Patriots",
        "s": 4,
-       "n": 2,
+       "n": 3,
        "u": 0,
-       "pf": 136,
-       "pa": 113
+       "pf": 160,
+       "pa": 143
       },
       {
        "team": "New York Jets",
@@ -1120,20 +1310,20 @@
        "pa": 64
       },
       {
+       "team": "Chicago Bears",
+       "s": 5,
+       "n": 2,
+       "u": 0,
+       "pf": 180,
+       "pa": 143
+      },
+      {
        "team": "Green Bay Packers",
        "s": 4,
        "n": 2,
        "u": 0,
        "pf": 127,
        "pa": 125
-      },
-      {
-       "team": "Chicago Bears",
-       "s": 4,
-       "n": 2,
-       "u": 0,
-       "pf": 150,
-       "pa": 119
       },
       {
        "team": "Detroit Lions",
