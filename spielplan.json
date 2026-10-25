@@ -1,21 +1,6 @@
 {
- "aktualisiert": "2026-10-23T09:30:00+02:00",
+ "aktualisiert": "2026-10-25T20:23:29+01:00",
  "bayern": [
-  {
-   "anstoss": "2026-10-25T17:30:00+01:00",
-   "wettbewerb": "Bundesliga",
-   "runde": "7. Spieltag",
-   "heim": "SC Freiburg",
-   "gast": "FC Bayern",
-   "sender": [
-    {
-     "name": "DAZN",
-     "art": "pay",
-     "info": "exklusiv"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-10-28T20:45:00+01:00",
    "wettbewerb": "DFB-Pokal",
@@ -138,26 +123,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-10-25T14:30:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7 · in Paris",
-   "heim": "New Orleans Saints",
-   "gast": "Pittsburgh Steelers",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-10-25T18:00:00+01:00",
    "wettbewerb": "NFL",
@@ -561,223 +526,223 @@
  ],
  "tabellen": {
   "bundesliga": {
-   "stand": "nach dem 6. Spieltag",
+   "stand": "nach dem 7. Spieltag",
    "zeilen": [
     {
      "platz": 1,
      "team": "FC Bayern",
-     "sp": 6,
-     "s": 4,
+     "sp": 7,
+     "s": 5,
      "u": 2,
      "n": 0,
-     "tore": 22,
-     "gegen": 5,
-     "diff": 17,
-     "pkt": 14
+     "tore": 25,
+     "gegen": 6,
+     "diff": 19,
+     "pkt": 17
     },
     {
      "platz": 2,
      "team": "Borussia Dortmund",
-     "sp": 6,
-     "s": 4,
+     "sp": 7,
+     "s": 5,
      "u": 2,
      "n": 0,
-     "tore": 11,
+     "tore": 12,
      "gegen": 4,
-     "diff": 7,
-     "pkt": 14
+     "diff": 8,
+     "pkt": 17
     },
     {
      "platz": 3,
      "team": "SC Freiburg",
-     "sp": 6,
+     "sp": 7,
      "s": 4,
      "u": 1,
-     "n": 1,
-     "tore": 15,
-     "gegen": 6,
-     "diff": 9,
+     "n": 2,
+     "tore": 16,
+     "gegen": 9,
+     "diff": 7,
      "pkt": 13
     },
     {
      "platz": 4,
      "team": "Bayer Leverkusen",
-     "sp": 6,
+     "sp": 7,
      "s": 4,
      "u": 1,
-     "n": 1,
+     "n": 2,
      "tore": 16,
-     "gegen": 9,
-     "diff": 7,
+     "gegen": 12,
+     "diff": 4,
      "pkt": 13
     },
     {
      "platz": 5,
-     "team": "1. FSV Mainz 05",
-     "sp": 6,
-     "s": 3,
-     "u": 1,
-     "n": 2,
-     "tore": 14,
-     "gegen": 10,
-     "diff": 4,
-     "pkt": 10
+     "team": "RB Leipzig",
+     "sp": 7,
+     "s": 4,
+     "u": 0,
+     "n": 3,
+     "tore": 20,
+     "gegen": 11,
+     "diff": 9,
+     "pkt": 12
     },
     {
      "platz": 6,
-     "team": "SV Elversberg",
-     "sp": 6,
+     "team": "Werder Bremen",
+     "sp": 7,
      "s": 3,
-     "u": 1,
-     "n": 2,
-     "tore": 12,
-     "gegen": 11,
+     "u": 3,
+     "n": 1,
+     "tore": 15,
+     "gegen": 14,
      "diff": 1,
-     "pkt": 10
+     "pkt": 12
     },
     {
      "platz": 7,
-     "team": "RB Leipzig",
-     "sp": 6,
+     "team": "1. FSV Mainz 05",
+     "sp": 7,
      "s": 3,
-     "u": 0,
+     "u": 1,
      "n": 3,
      "tore": 16,
-     "gegen": 11,
-     "diff": 5,
-     "pkt": 9
+     "gegen": 13,
+     "diff": 3,
+     "pkt": 10
     },
     {
      "platz": 8,
-     "team": "Werder Bremen",
-     "sp": 6,
-     "s": 2,
-     "u": 3,
-     "n": 1,
+     "team": "SV Elversberg",
+     "sp": 7,
+     "s": 3,
+     "u": 1,
+     "n": 3,
      "tore": 12,
-     "gegen": 12,
-     "diff": 0,
-     "pkt": 9
+     "gegen": 15,
+     "diff": -3,
+     "pkt": 10
     },
     {
      "platz": 9,
-     "team": "Hamburger SV",
-     "sp": 6,
-     "s": 3,
-     "u": 0,
-     "n": 3,
-     "tore": 6,
-     "gegen": 15,
-     "diff": -9,
+     "team": "FC Augsburg",
+     "sp": 7,
+     "s": 2,
+     "u": 3,
+     "n": 2,
+     "tore": 17,
+     "gegen": 13,
+     "diff": 4,
      "pkt": 9
     },
     {
      "platz": 10,
-     "team": "FC Augsburg",
-     "sp": 6,
-     "s": 2,
-     "u": 2,
-     "n": 2,
-     "tore": 16,
-     "gegen": 12,
-     "diff": 4,
-     "pkt": 8
+     "team": "TSG Hoffenheim",
+     "sp": 7,
+     "s": 3,
+     "u": 0,
+     "n": 4,
+     "tore": 14,
+     "gegen": 14,
+     "diff": 0,
+     "pkt": 9
     },
     {
      "platz": 11,
-     "team": "Eintracht Frankfurt",
-     "sp": 6,
-     "s": 2,
-     "u": 2,
-     "n": 2,
-     "tore": 10,
+     "team": "Hamburger SV",
+     "sp": 7,
+     "s": 3,
+     "u": 0,
+     "n": 4,
+     "tore": 6,
      "gegen": 16,
-     "diff": -6,
-     "pkt": 8
+     "diff": -10,
+     "pkt": 9
     },
     {
      "platz": 12,
      "team": "1. FC Köln",
-     "sp": 6,
+     "sp": 7,
      "s": 2,
-     "u": 1,
+     "u": 2,
      "n": 3,
      "tore": 8,
      "gegen": 11,
      "diff": -3,
-     "pkt": 7
+     "pkt": 8
     },
     {
      "platz": 13,
-     "team": "VfB Stuttgart",
-     "sp": 6,
+     "team": "SC Paderborn 07",
+     "sp": 7,
      "s": 2,
-     "u": 0,
-     "n": 4,
-     "tore": 8,
-     "gegen": 10,
-     "diff": -2,
-     "pkt": 6
+     "u": 2,
+     "n": 3,
+     "tore": 6,
+     "gegen": 9,
+     "diff": -3,
+     "pkt": 8
     },
     {
      "platz": 14,
-     "team": "TSG Hoffenheim",
-     "sp": 6,
+     "team": "Eintracht Frankfurt",
+     "sp": 7,
+     "s": 2,
+     "u": 2,
+     "n": 3,
+     "tore": 10,
+     "gegen": 17,
+     "diff": -7,
+     "pkt": 8
+    },
+    {
+     "platz": 15,
+     "team": "VfB Stuttgart",
+     "sp": 7,
      "s": 2,
      "u": 0,
-     "n": 4,
-     "tore": 11,
-     "gegen": 14,
+     "n": 5,
+     "tore": 10,
+     "gegen": 13,
      "diff": -3,
      "pkt": 6
     },
     {
-     "platz": 15,
+     "platz": 16,
      "team": "FC Schalke 04",
-     "sp": 6,
+     "sp": 7,
      "s": 1,
-     "u": 2,
+     "u": 3,
      "n": 3,
      "tore": 4,
      "gegen": 7,
      "diff": -3,
-     "pkt": 5
-    },
-    {
-     "platz": 16,
-     "team": "SC Paderborn 07",
-     "sp": 6,
-     "s": 1,
-     "u": 2,
-     "n": 3,
-     "tore": 5,
-     "gegen": 9,
-     "diff": -4,
-     "pkt": 5
+     "pkt": 6
     },
     {
      "platz": 17,
      "team": "1. FC Union Berlin",
-     "sp": 6,
+     "sp": 7,
      "s": 1,
-     "u": 2,
+     "u": 3,
      "n": 3,
-     "tore": 5,
-     "gegen": 17,
+     "tore": 6,
+     "gegen": 18,
      "diff": -12,
-     "pkt": 5
+     "pkt": 6
     },
     {
      "platz": 18,
      "team": "Borussia Mönchengladbach",
-     "sp": 6,
-     "s": 0,
+     "sp": 7,
+     "s": 1,
      "u": 0,
      "n": 6,
-     "tore": 8,
-     "gegen": 20,
-     "diff": -12,
-     "pkt": 0
+     "tore": 11,
+     "gegen": 22,
+     "diff": -11,
+     "pkt": 3
     }
    ]
   },
@@ -1111,7 +1076,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 6 und dem Thursday Night Game der Woche 7",
+   "stand": "nach Woche 6, dem Thursday Night Game und dem Paris-Spiel der Woche 7",
    "divisionen": [
     {
      "name": "AFC East",
@@ -1154,20 +1119,20 @@
      "name": "AFC North",
      "teams": [
       {
+       "team": "Pittsburgh Steelers",
+       "s": 5,
+       "n": 2,
+       "u": 0,
+       "pf": 153,
+       "pa": 138
+      },
+      {
        "team": "Cleveland Browns",
        "s": 4,
        "n": 2,
        "u": 0,
        "pf": 106,
        "pa": 122
-      },
-      {
-       "team": "Pittsburgh Steelers",
-       "s": 4,
-       "n": 2,
-       "u": 0,
-       "pf": 137,
-       "pa": 128
       },
       {
        "team": "Baltimore Ravens",
@@ -1357,10 +1322,10 @@
       {
        "team": "New Orleans Saints",
        "s": 2,
-       "n": 4,
+       "n": 5,
        "u": 0,
-       "pf": 152,
-       "pa": 178
+       "pf": 162,
+       "pa": 194
       },
       {
        "team": "Tampa Bay Buccaneers",
