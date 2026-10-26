@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-25T20:23:29+01:00",
+ "aktualisiert": "2026-10-26T07:40:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-10-28T20:45:00+01:00",
@@ -123,176 +123,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-10-25T18:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Baltimore Ravens",
-   "gast": "Cincinnati Bengals",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-10-25T18:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Atlanta Falcons",
-   "gast": "San Francisco 49ers",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport 1 & Konferenz"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-10-25T18:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Minnesota Vikings",
-   "gast": "Indianapolis Colts",
-   "sender": [
-    {
-     "name": "RTL+",
-     "art": "pay",
-     "info": "Premium-Abo, nur Stream"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-10-25T18:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Carolina Panthers",
-   "gast": "Tampa Bay Buccaneers",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-10-25T18:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "New York Jets",
-   "gast": "Miami Dolphins",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-10-25T18:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Houston Texans",
-   "gast": "New York Giants",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-10-25T18:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Tennessee Titans",
-   "gast": "Cleveland Browns",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-10-25T21:05:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Arizona Cardinals",
-   "gast": "Denver Broncos",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-10-25T21:25:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Detroit Lions",
-   "gast": "Green Bay Packers",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-10-25T21:25:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Las Vegas Raiders",
-   "gast": "Los Angeles Rams",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport 1 & Konferenz"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-10-26T01:20:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Seattle Seahawks",
-   "gast": "Kansas City Chiefs",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-10-27T01:15:00+01:00",
    "wettbewerb": "NFL",
@@ -1076,7 +906,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 6, dem Thursday Night Game und dem Paris-Spiel der Woche 7",
+   "stand": "nach Woche 7 (ohne Monday Night Game)",
    "divisionen": [
     {
      "name": "AFC East",
@@ -1100,24 +930,32 @@
       {
        "team": "New York Jets",
        "s": 2,
-       "n": 4,
+       "n": 5,
        "u": 0,
-       "pf": 112,
-       "pa": 122
+       "pf": 137,
+       "pa": 150
       },
       {
        "team": "Miami Dolphins",
-       "s": 0,
+       "s": 1,
        "n": 5,
        "u": 0,
-       "pf": 70,
-       "pa": 132
+       "pf": 98,
+       "pa": 157
       }
      ]
     },
     {
      "name": "AFC North",
      "teams": [
+      {
+       "team": "Cleveland Browns",
+       "s": 5,
+       "n": 2,
+       "u": 0,
+       "pf": 133,
+       "pa": 146
+      },
       {
        "team": "Pittsburgh Steelers",
        "s": 5,
@@ -1127,28 +965,20 @@
        "pa": 138
       },
       {
-       "team": "Cleveland Browns",
+       "team": "Cincinnati Bengals",
        "s": 4,
        "n": 2,
        "u": 0,
-       "pf": 106,
+       "pf": 163,
        "pa": 122
       },
       {
        "team": "Baltimore Ravens",
        "s": 4,
-       "n": 2,
+       "n": 3,
        "u": 0,
-       "pf": 156,
-       "pa": 132
-      },
-      {
-       "team": "Cincinnati Bengals",
-       "s": 3,
-       "n": 2,
-       "u": 0,
-       "pf": 128,
-       "pa": 109
+       "pf": 169,
+       "pa": 167
       }
      ]
     },
@@ -1166,26 +996,26 @@
       {
        "team": "Indianapolis Colts",
        "s": 2,
-       "n": 4,
+       "n": 5,
        "u": 0,
-       "pf": 144,
-       "pa": 164
+       "pf": 154,
+       "pa": 180
       },
       {
        "team": "Houston Texans",
        "s": 2,
-       "n": 4,
+       "n": 5,
        "u": 0,
-       "pf": 144,
-       "pa": 143
+       "pf": 165,
+       "pa": 170
       },
       {
        "team": "Tennessee Titans",
        "s": 1,
-       "n": 5,
+       "n": 6,
        "u": 0,
-       "pf": 84,
-       "pa": 129
+       "pf": 108,
+       "pa": 156
       }
      ]
     },
@@ -1195,26 +1025,26 @@
       {
        "team": "Kansas City Chiefs",
        "s": 5,
-       "n": 0,
+       "n": 1,
        "u": 0,
-       "pf": 140,
-       "pa": 83
+       "pf": 143,
+       "pa": 103
       },
       {
        "team": "Denver Broncos",
-       "s": 4,
+       "s": 5,
        "n": 2,
        "u": 0,
-       "pf": 114,
-       "pa": 125
+       "pf": 144,
+       "pa": 141
       },
       {
        "team": "Las Vegas Raiders",
        "s": 3,
-       "n": 3,
+       "n": 4,
        "u": 0,
-       "pf": 162,
-       "pa": 162
+       "pf": 183,
+       "pa": 197
       },
       {
        "team": "Los Angeles Chargers",
@@ -1231,11 +1061,11 @@
      "teams": [
       {
        "team": "New York Giants",
-       "s": 3,
+       "s": 4,
        "n": 2,
        "u": 1,
-       "pf": 136,
-       "pa": 140
+       "pf": 163,
+       "pa": 161
       },
       {
        "team": "Philadelphia Eagles",
@@ -1268,11 +1098,11 @@
      "teams": [
       {
        "team": "Minnesota Vikings",
-       "s": 5,
+       "s": 6,
        "n": 0,
        "u": 0,
-       "pf": 109,
-       "pa": 64
+       "pf": 125,
+       "pa": 74
       },
       {
        "team": "Chicago Bears",
@@ -1283,20 +1113,20 @@
        "pa": 143
       },
       {
-       "team": "Green Bay Packers",
+       "team": "Detroit Lions",
        "s": 4,
        "n": 2,
        "u": 0,
-       "pf": 127,
-       "pa": 125
+       "pf": 184,
+       "pa": 165
       },
       {
-       "team": "Detroit Lions",
-       "s": 3,
-       "n": 2,
+       "team": "Green Bay Packers",
+       "s": 4,
+       "n": 3,
        "u": 0,
-       "pf": 164,
-       "pa": 148
+       "pf": 144,
+       "pa": 145
       }
      ]
     },
@@ -1306,18 +1136,26 @@
       {
        "team": "Carolina Panthers",
        "s": 3,
-       "n": 2,
+       "n": 3,
        "u": 0,
-       "pf": 146,
-       "pa": 123
+       "pf": 159,
+       "pa": 166
       },
       {
        "team": "Atlanta Falcons",
-       "s": 2,
+       "s": 3,
        "n": 4,
        "u": 0,
-       "pf": 142,
-       "pa": 153
+       "pf": 171,
+       "pa": 173
+      },
+      {
+       "team": "Tampa Bay Buccaneers",
+       "s": 2,
+       "n": 5,
+       "u": 0,
+       "pf": 162,
+       "pa": 151
       },
       {
        "team": "New Orleans Saints",
@@ -1326,14 +1164,6 @@
        "u": 0,
        "pf": 162,
        "pa": 194
-      },
-      {
-       "team": "Tampa Bay Buccaneers",
-       "s": 1,
-       "n": 5,
-       "u": 0,
-       "pf": 119,
-       "pa": 138
       }
      ]
     },
@@ -1343,34 +1173,34 @@
       {
        "team": "San Francisco 49ers",
        "s": 6,
-       "n": 0,
+       "n": 1,
        "u": 0,
-       "pf": 177,
-       "pa": 110
+       "pf": 197,
+       "pa": 139
       },
       {
        "team": "Seattle Seahawks",
-       "s": 3,
+       "s": 4,
        "n": 3,
        "u": 0,
-       "pf": 148,
-       "pa": 122
+       "pf": 168,
+       "pa": 125
+      },
+      {
+       "team": "Los Angeles Rams",
+       "s": 3,
+       "n": 4,
+       "u": 0,
+       "pf": 170,
+       "pa": 159
       },
       {
        "team": "Arizona Cardinals",
        "s": 2,
-       "n": 4,
+       "n": 5,
        "u": 0,
-       "pf": 126,
-       "pa": 178
-      },
-      {
-       "team": "Los Angeles Rams",
-       "s": 2,
-       "n": 4,
-       "u": 0,
-       "pf": 135,
-       "pa": 138
+       "pf": 142,
+       "pa": 208
       }
      ]
     }
