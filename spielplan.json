@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-26T07:40:00+01:00",
+ "aktualisiert": "2026-10-27T07:26:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-10-28T20:45:00+01:00",
@@ -120,29 +120,24 @@
     }
    ],
    "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-12-08T21:00:00+01:00",
+   "wettbewerb": "Champions League",
+   "runde": "Ligaphase, 6. Spieltag",
+   "heim": "FC Bayern",
+   "gast": "Slavia Prag",
+   "sender": [
+    {
+     "name": "DAZN",
+     "art": "pay",
+     "info": ""
+    }
+   ],
+   "bestaetigt": false
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-10-27T01:15:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 7",
-   "heim": "Philadelphia Eagles",
-   "gast": "Dallas Cowboys",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-10-30T01:15:00+01:00",
    "wettbewerb": "NFL",
@@ -344,6 +339,231 @@
    "runde": "Woche 8",
    "heim": "Seattle Seahawks",
    "gast": "Chicago Bears",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-06T02:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Baltimore Ravens",
+   "gast": "Jacksonville Jaguars",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-08T15:30:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9 · in Madrid",
+   "heim": "Atlanta Falcons",
+   "gast": "Cincinnati Bengals",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-08T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Carolina Panthers",
+   "gast": "Denver Broncos",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-08T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Indianapolis Colts",
+   "gast": "Dallas Cowboys",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-08T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Kansas City Chiefs",
+   "gast": "New York Jets",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-08T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Miami Dolphins",
+   "gast": "Detroit Lions",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-08T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "New Orleans Saints",
+   "gast": "Cleveland Browns",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-08T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Philadelphia Eagles",
+   "gast": "New York Giants",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-08T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Washington Commanders",
+   "gast": "Los Angeles Rams",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-08T22:05:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Los Angeles Chargers",
+   "gast": "Houston Texans",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-08T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "San Francisco 49ers",
+   "gast": "Las Vegas Raiders",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-08T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "New England Patriots",
+   "gast": "Green Bay Packers",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-08T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Seattle Seahawks",
+   "gast": "Arizona Cardinals",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-09T02:20:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Chicago Bears",
+   "gast": "Tampa Bay Buccaneers",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-10T02:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 9",
+   "heim": "Minnesota Vikings",
+   "gast": "Buffalo Bills",
    "sender": [
     {
      "name": "RTL",
@@ -906,7 +1126,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 7 (ohne Monday Night Game)",
+   "stand": "nach Woche 7",
    "divisionen": [
     {
      "name": "AFC East",
@@ -1068,20 +1288,20 @@
        "pa": 161
       },
       {
-       "team": "Philadelphia Eagles",
-       "s": 2,
+       "team": "Dallas Cowboys",
+       "s": 3,
        "n": 4,
        "u": 0,
-       "pf": 106,
-       "pa": 137
+       "pf": 189,
+       "pa": 180
       },
       {
-       "team": "Dallas Cowboys",
+       "team": "Philadelphia Eagles",
        "s": 2,
-       "n": 4,
+       "n": 5,
        "u": 0,
-       "pf": 151,
-       "pa": 159
+       "pf": 127,
+       "pa": 175
       },
       {
        "team": "Washington Commanders",
