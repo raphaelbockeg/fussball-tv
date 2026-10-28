@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-27T07:26:00+01:00",
+ "aktualisiert": "2026-10-28T07:45:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-10-28T20:45:00+01:00",
@@ -149,6 +149,11 @@
      "name": "RTL",
      "art": "free",
      "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -161,12 +166,12 @@
    "gast": "Baltimore Ravens",
    "sender": [
     {
-     "name": "NFL Game Pass",
-     "art": "pay",
-     "info": "über DAZN"
+     "name": "RTL",
+     "art": "free",
+     "info": ""
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-01T19:00:00+01:00",
@@ -176,12 +181,12 @@
    "gast": "Tennessee Titans",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-01T19:00:00+01:00",
@@ -191,12 +196,12 @@
    "gast": "Arizona Cardinals",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-01T19:00:00+01:00",
@@ -206,12 +211,12 @@
    "gast": "Minnesota Vikings",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Sky Sport 1"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-01T19:00:00+01:00",
@@ -221,12 +226,12 @@
    "gast": "Indianapolis Colts",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-01T19:00:00+01:00",
@@ -236,12 +241,12 @@
    "gast": "Las Vegas Raiders",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-01T19:00:00+01:00",
@@ -251,12 +256,12 @@
    "gast": "Cleveland Browns",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "RTL+",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Premium-Abo, nur Stream"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-01T19:00:00+01:00",
@@ -266,12 +271,12 @@
    "gast": "Atlanta Falcons",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-01T22:05:00+01:00",
@@ -281,12 +286,12 @@
    "gast": "Los Angeles Chargers",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-01T22:25:00+01:00",
@@ -296,12 +301,12 @@
    "gast": "Kansas City Chiefs",
    "sender": [
     {
-     "name": "NFL Game Pass",
-     "art": "pay",
-     "info": "über DAZN"
+     "name": "RTL",
+     "art": "free",
+     "info": ""
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-01T22:25:00+01:00",
@@ -311,12 +316,12 @@
    "gast": "New England Patriots",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Sky Sport 1"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-02T02:20:00+01:00",
@@ -329,6 +334,11 @@
      "name": "RTL",
      "art": "free",
      "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -344,6 +354,11 @@
      "name": "RTL",
      "art": "free",
      "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
