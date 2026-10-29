@@ -1,26 +1,6 @@
 {
- "aktualisiert": "2026-10-28T07:45:00+01:00",
+ "aktualisiert": "2026-10-29T07:40:00+01:00",
  "bayern": [
-  {
-   "anstoss": "2026-10-28T20:45:00+01:00",
-   "wettbewerb": "DFB-Pokal",
-   "runde": "2. Runde",
-   "heim": "FC Bayern",
-   "gast": "1. FC Magdeburg",
-   "sender": [
-    {
-     "name": "ARD",
-     "art": "free",
-     "info": "Das Erste & ARD Mediathek"
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Go / WOW"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-10-31T18:30:00+01:00",
    "wettbewerb": "Bundesliga",
