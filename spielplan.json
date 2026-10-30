@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-29T07:40:00+01:00",
+ "aktualisiert": "2026-10-30T07:37:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-10-31T18:30:00+01:00",
@@ -118,26 +118,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-10-30T01:15:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Green Bay Packers",
-   "gast": "Carolina Panthers",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-11-01T19:00:00+01:00",
    "wettbewerb": "NFL",
@@ -1121,7 +1101,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 7",
+   "stand": "nach dem Donnerstagsspiel von Woche 8",
    "divisionen": [
     {
      "name": "AFC East",
@@ -1337,11 +1317,11 @@
       },
       {
        "team": "Green Bay Packers",
-       "s": 4,
+       "s": 5,
        "n": 3,
        "u": 0,
-       "pf": 144,
-       "pa": 145
+       "pf": 171,
+       "pa": 164
       }
      ]
     },
@@ -1351,10 +1331,10 @@
       {
        "team": "Carolina Panthers",
        "s": 3,
-       "n": 3,
+       "n": 4,
        "u": 0,
-       "pf": 159,
-       "pa": 166
+       "pf": 178,
+       "pa": 193
       },
       {
        "team": "Atlanta Falcons",
