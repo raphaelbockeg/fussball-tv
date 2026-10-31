@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-30T07:37:00+01:00",
+ "aktualisiert": "2026-10-31T07:24:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-10-31T18:30:00+01:00",
@@ -551,7 +551,7 @@
  ],
  "tabellen": {
   "bundesliga": {
-   "stand": "nach dem 7. Spieltag",
+   "stand": "nach dem Freitagsspiel des 8. Spieltags",
    "zeilen": [
     {
      "platz": 1,
@@ -603,6 +603,18 @@
     },
     {
      "platz": 5,
+     "team": "SV Elversberg",
+     "sp": 8,
+     "s": 4,
+     "u": 1,
+     "n": 3,
+     "tore": 16,
+     "gegen": 16,
+     "diff": 0,
+     "pkt": 13
+    },
+    {
+     "platz": 6,
      "team": "RB Leipzig",
      "sp": 7,
      "s": 4,
@@ -614,7 +626,7 @@
      "pkt": 12
     },
     {
-     "platz": 6,
+     "platz": 7,
      "team": "Werder Bremen",
      "sp": 7,
      "s": 3,
@@ -626,27 +638,15 @@
      "pkt": 12
     },
     {
-     "platz": 7,
-     "team": "1. FSV Mainz 05",
-     "sp": 7,
-     "s": 3,
-     "u": 1,
-     "n": 3,
-     "tore": 16,
-     "gegen": 13,
-     "diff": 3,
-     "pkt": 10
-    },
-    {
      "platz": 8,
-     "team": "SV Elversberg",
-     "sp": 7,
+     "team": "1. FSV Mainz 05",
+     "sp": 8,
      "s": 3,
      "u": 1,
-     "n": 3,
-     "tore": 12,
-     "gegen": 15,
-     "diff": -3,
+     "n": 4,
+     "tore": 17,
+     "gegen": 17,
+     "diff": 0,
      "pkt": 10
     },
     {
