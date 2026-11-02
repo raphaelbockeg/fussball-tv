@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-01T07:40:00+01:00",
+ "aktualisiert": "2026-11-02T07:50:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-03T21:00:00+01:00",
@@ -103,191 +103,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-11-01T19:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Buffalo Bills",
-   "gast": "Baltimore Ravens",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-01T19:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Cincinnati Bengals",
-   "gast": "Tennessee Titans",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-01T19:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Dallas Cowboys",
-   "gast": "Arizona Cardinals",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-01T19:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Detroit Lions",
-   "gast": "Minnesota Vikings",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport 1"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-01T19:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Jacksonville Jaguars",
-   "gast": "Indianapolis Colts",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-01T19:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "New York Jets",
-   "gast": "Las Vegas Raiders",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-01T19:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Pittsburgh Steelers",
-   "gast": "Cleveland Browns",
-   "sender": [
-    {
-     "name": "RTL+",
-     "art": "pay",
-     "info": "Premium-Abo, nur Stream"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-01T19:00:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Tampa Bay Buccaneers",
-   "gast": "Atlanta Falcons",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-01T22:05:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Los Angeles Rams",
-   "gast": "Los Angeles Chargers",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Konferenz & NFL RedZone"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-01T22:25:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Denver Broncos",
-   "gast": "Kansas City Chiefs",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-01T22:25:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Miami Dolphins",
-   "gast": "New England Patriots",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport 1"
-    }
-   ],
-   "bestaetigt": true
-  },
-  {
-   "anstoss": "2026-11-02T02:20:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Washington Commanders",
-   "gast": "Philadelphia Eagles",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-11-03T02:15:00+01:00",
    "wettbewerb": "NFL",
@@ -536,7 +351,7 @@
  ],
  "tabellen": {
   "bundesliga": {
-   "stand": "nach dem 8. Spieltag (ohne Sonntagsspiele)",
+   "stand": "nach dem 8. Spieltag",
    "zeilen": [
     {
      "platz": 1,
@@ -624,6 +439,18 @@
     },
     {
      "platz": 8,
+     "team": "Eintracht Frankfurt",
+     "sp": 8,
+     "s": 3,
+     "u": 2,
+     "n": 3,
+     "tore": 13,
+     "gegen": 18,
+     "diff": -5,
+     "pkt": 11
+    },
+    {
+     "platz": 9,
      "team": "1. FSV Mainz 05",
      "sp": 8,
      "s": 3,
@@ -635,7 +462,7 @@
      "pkt": 10
     },
     {
-     "platz": 9,
+     "platz": 10,
      "team": "FC Augsburg",
      "sp": 8,
      "s": 2,
@@ -647,7 +474,7 @@
      "pkt": 9
     },
     {
-     "platz": 10,
+     "platz": 11,
      "team": "VfB Stuttgart",
      "sp": 8,
      "s": 3,
@@ -659,7 +486,7 @@
      "pkt": 9
     },
     {
-     "platz": 11,
+     "platz": 12,
      "team": "TSG Hoffenheim",
      "sp": 8,
      "s": 3,
@@ -671,7 +498,19 @@
      "pkt": 9
     },
     {
-     "platz": 12,
+     "platz": 13,
+     "team": "1. FC Köln",
+     "sp": 8,
+     "s": 2,
+     "u": 3,
+     "n": 3,
+     "tore": 9,
+     "gegen": 12,
+     "diff": -3,
+     "pkt": 9
+    },
+    {
+     "platz": 14,
      "team": "SC Paderborn 07",
      "sp": 8,
      "s": 2,
@@ -683,43 +522,31 @@
      "pkt": 9
     },
     {
-     "platz": 13,
+     "platz": 15,
      "team": "Hamburger SV",
-     "sp": 7,
+     "sp": 8,
      "s": 3,
      "u": 0,
-     "n": 4,
-     "tore": 6,
-     "gegen": 16,
-     "diff": -10,
+     "n": 5,
+     "tore": 7,
+     "gegen": 19,
+     "diff": -12,
      "pkt": 9
     },
     {
-     "platz": 14,
-     "team": "1. FC Köln",
-     "sp": 7,
-     "s": 2,
-     "u": 2,
-     "n": 3,
-     "tore": 8,
-     "gegen": 11,
-     "diff": -3,
-     "pkt": 8
-    },
-    {
-     "platz": 15,
-     "team": "Eintracht Frankfurt",
-     "sp": 7,
-     "s": 2,
-     "u": 2,
-     "n": 3,
-     "tore": 10,
-     "gegen": 17,
-     "diff": -7,
-     "pkt": 8
-    },
-    {
      "platz": 16,
+     "team": "1. FC Union Berlin",
+     "sp": 8,
+     "s": 1,
+     "u": 4,
+     "n": 3,
+     "tore": 7,
+     "gegen": 19,
+     "diff": -12,
+     "pkt": 7
+    },
+    {
+     "platz": 17,
      "team": "FC Schalke 04",
      "sp": 8,
      "s": 1,
@@ -728,18 +555,6 @@
      "tore": 4,
      "gegen": 9,
      "diff": -5,
-     "pkt": 6
-    },
-    {
-     "platz": 17,
-     "team": "1. FC Union Berlin",
-     "sp": 7,
-     "s": 1,
-     "u": 3,
-     "n": 3,
-     "tore": 6,
-     "gegen": 18,
-     "diff": -12,
      "pkt": 6
     },
     {
@@ -1086,42 +901,42 @@
    ]
   },
   "nfl": {
-   "stand": "nach dem Donnerstagsspiel von Woche 8",
+   "stand": "nach Woche 8 (ohne Montagsspiel)",
    "divisionen": [
     {
      "name": "AFC East",
      "teams": [
       {
        "team": "Buffalo Bills",
-       "s": 5,
+       "s": 6,
        "n": 1,
        "u": 0,
-       "pf": 197,
-       "pa": 171
+       "pf": 233,
+       "pa": 181
       },
       {
        "team": "New England Patriots",
-       "s": 4,
+       "s": 5,
        "n": 3,
        "u": 0,
-       "pf": 160,
-       "pa": 143
+       "pf": 184,
+       "pa": 162
       },
       {
        "team": "New York Jets",
        "s": 2,
-       "n": 5,
+       "n": 6,
        "u": 0,
-       "pf": 137,
-       "pa": 150
+       "pf": 170,
+       "pa": 188
       },
       {
        "team": "Miami Dolphins",
        "s": 1,
-       "n": 5,
+       "n": 6,
        "u": 0,
-       "pf": 98,
-       "pa": 157
+       "pf": 117,
+       "pa": 181
       }
      ]
     },
@@ -1129,36 +944,36 @@
      "name": "AFC North",
      "teams": [
       {
-       "team": "Cleveland Browns",
-       "s": 5,
-       "n": 2,
-       "u": 0,
-       "pf": 133,
-       "pa": 146
-      },
-      {
        "team": "Pittsburgh Steelers",
-       "s": 5,
+       "s": 6,
        "n": 2,
        "u": 0,
-       "pf": 153,
-       "pa": 138
+       "pf": 180,
+       "pa": 144
       },
       {
        "team": "Cincinnati Bengals",
-       "s": 4,
+       "s": 5,
        "n": 2,
        "u": 0,
-       "pf": 163,
-       "pa": 122
+       "pf": 206,
+       "pa": 158
+      },
+      {
+       "team": "Cleveland Browns",
+       "s": 5,
+       "n": 3,
+       "u": 0,
+       "pf": 139,
+       "pa": 173
       },
       {
        "team": "Baltimore Ravens",
        "s": 4,
-       "n": 3,
+       "n": 4,
        "u": 0,
-       "pf": 169,
-       "pa": 167
+       "pf": 179,
+       "pa": 203
       }
      ]
     },
@@ -1167,19 +982,11 @@
      "teams": [
       {
        "team": "Jacksonville Jaguars",
-       "s": 4,
+       "s": 5,
        "n": 2,
        "u": 0,
-       "pf": 154,
-       "pa": 104
-      },
-      {
-       "team": "Indianapolis Colts",
-       "s": 2,
-       "n": 5,
-       "u": 0,
-       "pf": 154,
-       "pa": 180
+       "pf": 196,
+       "pa": 111
       },
       {
        "team": "Houston Texans",
@@ -1190,12 +997,20 @@
        "pa": 170
       },
       {
-       "team": "Tennessee Titans",
-       "s": 1,
+       "team": "Indianapolis Colts",
+       "s": 2,
        "n": 6,
        "u": 0,
-       "pf": 108,
-       "pa": 156
+       "pf": 161,
+       "pa": 222
+      },
+      {
+       "team": "Tennessee Titans",
+       "s": 1,
+       "n": 7,
+       "u": 0,
+       "pf": 144,
+       "pa": 199
       }
      ]
     },
@@ -1203,36 +1018,36 @@
      "name": "AFC West",
      "teams": [
       {
-       "team": "Kansas City Chiefs",
-       "s": 5,
-       "n": 1,
+       "team": "Denver Broncos",
+       "s": 6,
+       "n": 2,
        "u": 0,
-       "pf": 143,
-       "pa": 103
+       "pf": 172,
+       "pa": 165
       },
       {
-       "team": "Denver Broncos",
+       "team": "Kansas City Chiefs",
        "s": 5,
        "n": 2,
        "u": 0,
-       "pf": 144,
-       "pa": 141
+       "pf": 167,
+       "pa": 131
       },
       {
        "team": "Las Vegas Raiders",
-       "s": 3,
+       "s": 4,
        "n": 4,
        "u": 0,
-       "pf": 183,
-       "pa": 197
+       "pf": 221,
+       "pa": 230
       },
       {
        "team": "Los Angeles Chargers",
        "s": 0,
-       "n": 6,
+       "n": 7,
        "u": 0,
-       "pf": 90,
-       "pa": 151
+       "pf": 99,
+       "pa": 175
       }
      ]
     },
@@ -1250,26 +1065,26 @@
       {
        "team": "Dallas Cowboys",
        "s": 3,
-       "n": 4,
+       "n": 5,
        "u": 0,
-       "pf": 189,
-       "pa": 180
+       "pf": 219,
+       "pa": 213
+      },
+      {
+       "team": "Washington Commanders",
+       "s": 2,
+       "n": 4,
+       "u": 1,
+       "pf": 159,
+       "pa": 182
       },
       {
        "team": "Philadelphia Eagles",
        "s": 2,
-       "n": 5,
+       "n": 6,
        "u": 0,
-       "pf": 127,
-       "pa": 175
-      },
-      {
-       "team": "Washington Commanders",
-       "s": 1,
-       "n": 4,
-       "u": 1,
-       "pf": 132,
-       "pa": 172
+       "pf": 137,
+       "pa": 202
       }
      ]
     },
@@ -1279,10 +1094,18 @@
       {
        "team": "Minnesota Vikings",
        "s": 6,
-       "n": 0,
+       "n": 1,
        "u": 0,
-       "pf": 125,
-       "pa": 74
+       "pf": 140,
+       "pa": 93
+      },
+      {
+       "team": "Detroit Lions",
+       "s": 5,
+       "n": 2,
+       "u": 0,
+       "pf": 203,
+       "pa": 180
       },
       {
        "team": "Chicago Bears",
@@ -1291,14 +1114,6 @@
        "u": 0,
        "pf": 180,
        "pa": 143
-      },
-      {
-       "team": "Detroit Lions",
-       "s": 4,
-       "n": 2,
-       "u": 0,
-       "pf": 184,
-       "pa": 165
       },
       {
        "team": "Green Bay Packers",
@@ -1322,20 +1137,20 @@
        "pa": 193
       },
       {
-       "team": "Atlanta Falcons",
-       "s": 3,
-       "n": 4,
-       "u": 0,
-       "pf": 171,
-       "pa": 173
-      },
-      {
        "team": "Tampa Bay Buccaneers",
-       "s": 2,
+       "s": 3,
        "n": 5,
        "u": 0,
-       "pf": 162,
+       "pf": 178,
        "pa": 151
+      },
+      {
+       "team": "Atlanta Falcons",
+       "s": 3,
+       "n": 5,
+       "u": 0,
+       "pf": 171,
+       "pa": 189
       },
       {
        "team": "New Orleans Saints",
@@ -1368,19 +1183,19 @@
       },
       {
        "team": "Los Angeles Rams",
-       "s": 3,
+       "s": 4,
        "n": 4,
        "u": 0,
-       "pf": 170,
-       "pa": 159
+       "pf": 194,
+       "pa": 168
       },
       {
        "team": "Arizona Cardinals",
-       "s": 2,
+       "s": 3,
        "n": 5,
        "u": 0,
-       "pf": 142,
-       "pa": 208
+       "pf": 175,
+       "pa": 238
       }
      ]
     }
