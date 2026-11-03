@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-02T07:50:00+01:00",
+ "aktualisiert": "2026-11-03T07:40:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-03T21:00:00+01:00",
@@ -103,26 +103,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-11-03T02:15:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 8",
-   "heim": "Seattle Seahawks",
-   "gast": "Chicago Bears",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-11-06T02:15:00+01:00",
    "wettbewerb": "NFL",
@@ -339,6 +319,221 @@
    "runde": "Woche 9",
    "heim": "Minnesota Vikings",
    "gast": "Buffalo Bills",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-13T02:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "New York Giants",
+   "gast": "Washington Commanders",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-15T15:30:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10 · in München",
+   "heim": "Detroit Lions",
+   "gast": "New England Patriots",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-15T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "Atlanta Falcons",
+   "gast": "Kansas City Chiefs",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-15T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "Cleveland Browns",
+   "gast": "Houston Texans",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-15T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "Green Bay Packers",
+   "gast": "Minnesota Vikings",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-15T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "Indianapolis Colts",
+   "gast": "Miami Dolphins",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-15T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "New Orleans Saints",
+   "gast": "Carolina Panthers",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-15T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "New York Jets",
+   "gast": "Buffalo Bills",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-15T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "Tennessee Titans",
+   "gast": "Jacksonville Jaguars",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-15T22:05:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "Arizona Cardinals",
+   "gast": "Los Angeles Rams",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-15T22:05:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "Las Vegas Raiders",
+   "gast": "Seattle Seahawks",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-15T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "Dallas Cowboys",
+   "gast": "San Francisco 49ers",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-16T02:20:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "Cincinnati Bengals",
+   "gast": "Pittsburgh Steelers",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-17T02:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 10",
+   "heim": "Baltimore Ravens",
+   "gast": "Los Angeles Chargers",
    "sender": [
     {
      "name": "RTL",
@@ -901,7 +1096,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 8 (ohne Montagsspiel)",
+   "stand": "nach Woche 8",
    "divisionen": [
     {
      "name": "AFC East",
@@ -1100,20 +1295,20 @@
        "pa": 93
       },
       {
+       "team": "Chicago Bears",
+       "s": 6,
+       "n": 2,
+       "u": 0,
+       "pf": 214,
+       "pa": 160
+      },
+      {
        "team": "Detroit Lions",
        "s": 5,
        "n": 2,
        "u": 0,
        "pf": 203,
        "pa": 180
-      },
-      {
-       "team": "Chicago Bears",
-       "s": 5,
-       "n": 2,
-       "u": 0,
-       "pf": 180,
-       "pa": 143
       },
       {
        "team": "Green Bay Packers",
@@ -1176,10 +1371,10 @@
       {
        "team": "Seattle Seahawks",
        "s": 4,
-       "n": 3,
+       "n": 4,
        "u": 0,
-       "pf": 168,
-       "pa": 125
+       "pf": 185,
+       "pa": 159
       },
       {
        "team": "Los Angeles Rams",
