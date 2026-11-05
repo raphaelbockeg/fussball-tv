@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-04T07:45:00+01:00",
+ "aktualisiert": "2026-11-05T07:27:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-07T15:30:00+01:00",
@@ -72,6 +72,26 @@
    "bestaetigt": false
   },
   {
+   "anstoss": "2026-12-01T20:45:00+01:00",
+   "wettbewerb": "DFB-Pokal",
+   "runde": "Achtelfinale",
+   "heim": "FC Bayern",
+   "gast": "Hertha BSC",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
    "anstoss": "2026-12-08T21:00:00+01:00",
    "wettbewerb": "Champions League",
    "runde": "Ligaphase, 6. Spieltag",
@@ -103,7 +123,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Sky Sport"
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -119,6 +139,11 @@
      "name": "RTL",
      "art": "free",
      "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL"
     }
    ],
    "bestaetigt": true
@@ -223,7 +248,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Sky Sport"
+     "info": "Sky Sport 1"
     }
    ],
    "bestaetigt": true
@@ -283,7 +308,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Sky Sport"
+     "info": "Sky Sport 1"
     }
    ],
    "bestaetigt": true
@@ -303,7 +328,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Sky Sport"
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -323,7 +348,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Sky Sport"
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -339,6 +364,11 @@
      "name": "RTL",
      "art": "free",
      "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -358,7 +388,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Sky Sport"
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -524,6 +554,11 @@
      "name": "RTL",
      "art": "free",
      "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -539,6 +574,11 @@
      "name": "RTL",
      "art": "free",
      "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -767,7 +807,7 @@
    ]
   },
   "championsLeague": {
-   "stand": "nach dem 4. Spieltag (ohne Mittwochsspiele)",
+   "stand": "nach dem 4. Spieltag",
    "zeilen": [
     {
      "platz": 1,
@@ -782,6 +822,39 @@
     },
     {
      "platz": 2,
+     "team": "Real Madrid",
+     "sp": 4,
+     "s": 4,
+     "u": 0,
+     "n": 0,
+     "tore": 13,
+     "gegen": 7,
+     "pkt": 12
+    },
+    {
+     "platz": 3,
+     "team": "FC Arsenal",
+     "sp": 4,
+     "s": 3,
+     "u": 1,
+     "n": 0,
+     "tore": 8,
+     "gegen": 3,
+     "pkt": 10
+    },
+    {
+     "platz": 4,
+     "team": "Como 1907",
+     "sp": 4,
+     "s": 3,
+     "u": 0,
+     "n": 1,
+     "tore": 19,
+     "gegen": 6,
+     "pkt": 9
+    },
+    {
+     "platz": 5,
      "team": "FC Barcelona",
      "sp": 4,
      "s": 3,
@@ -792,7 +865,7 @@
      "pkt": 9
     },
     {
-     "platz": 3,
+     "platz": 6,
      "team": "Aston Villa",
      "sp": 4,
      "s": 3,
@@ -803,29 +876,40 @@
      "pkt": 9
     },
     {
-     "platz": 4,
-     "team": "FC Liverpool",
-     "sp": 3,
+     "platz": 7,
+     "team": "Manchester City",
+     "sp": 4,
      "s": 3,
      "u": 0,
-     "n": 0,
+     "n": 1,
      "tore": 12,
      "gegen": 7,
      "pkt": 9
     },
     {
-     "platz": 5,
-     "team": "Real Madrid",
-     "sp": 3,
+     "platz": 8,
+     "team": "FC Liverpool",
+     "sp": 4,
      "s": 3,
      "u": 0,
-     "n": 0,
-     "tore": 10,
-     "gegen": 5,
+     "n": 1,
+     "tore": 14,
+     "gegen": 10,
      "pkt": 9
     },
     {
-     "platz": 6,
+     "platz": 9,
+     "team": "FC Brügge",
+     "sp": 4,
+     "s": 3,
+     "u": 0,
+     "n": 1,
+     "tore": 11,
+     "gegen": 7,
+     "pkt": 9
+    },
+    {
+     "platz": 10,
      "team": "Sporting Lissabon",
      "sp": 4,
      "s": 3,
@@ -836,18 +920,29 @@
      "pkt": 9
     },
     {
-     "platz": 7,
+     "platz": 11,
      "team": "Real Betis",
-     "sp": 3,
+     "sp": 4,
      "s": 3,
      "u": 0,
-     "n": 0,
-     "tore": 7,
-     "gegen": 4,
+     "n": 1,
+     "tore": 8,
+     "gegen": 6,
      "pkt": 9
     },
     {
-     "platz": 8,
+     "platz": 12,
+     "team": "Borussia Dortmund",
+     "sp": 4,
+     "s": 3,
+     "u": 0,
+     "n": 1,
+     "tore": 7,
+     "gegen": 5,
+     "pkt": 9
+    },
+    {
+     "platz": 13,
      "team": "FC Bayern",
      "sp": 4,
      "s": 2,
@@ -858,18 +953,7 @@
      "pkt": 8
     },
     {
-     "platz": 9,
-     "team": "FC Arsenal",
-     "sp": 3,
-     "s": 2,
-     "u": 1,
-     "n": 0,
-     "tore": 6,
-     "gegen": 2,
-     "pkt": 7
-    },
-    {
-     "platz": 10,
+     "platz": 14,
      "team": "VfB Stuttgart",
      "sp": 4,
      "s": 2,
@@ -880,40 +964,7 @@
      "pkt": 7
     },
     {
-     "platz": 11,
-     "team": "Como 1907",
-     "sp": 3,
-     "s": 2,
-     "u": 0,
-     "n": 1,
-     "tore": 10,
-     "gegen": 5,
-     "pkt": 6
-    },
-    {
-     "platz": 12,
-     "team": "Manchester City",
-     "sp": 3,
-     "s": 2,
-     "u": 0,
-     "n": 1,
-     "tore": 9,
-     "gegen": 5,
-     "pkt": 6
-    },
-    {
-     "platz": 13,
-     "team": "FC Brügge",
-     "sp": 3,
-     "s": 2,
-     "u": 0,
-     "n": 1,
-     "tore": 9,
-     "gegen": 6,
-     "pkt": 6
-    },
-    {
-     "platz": 14,
+     "platz": 15,
      "team": "Inter Mailand",
      "sp": 4,
      "s": 2,
@@ -924,7 +975,7 @@
      "pkt": 6
     },
     {
-     "platz": 15,
+     "platz": 16,
      "team": "LASK",
      "sp": 4,
      "s": 2,
@@ -932,17 +983,6 @@
      "n": 2,
      "tore": 10,
      "gegen": 9,
-     "pkt": 6
-    },
-    {
-     "platz": 16,
-     "team": "Borussia Dortmund",
-     "sp": 3,
-     "s": 2,
-     "u": 0,
-     "n": 1,
-     "tore": 5,
-     "gegen": 4,
      "pkt": 6
     },
     {
@@ -969,6 +1009,17 @@
     },
     {
      "platz": 19,
+     "team": "Fenerbahçe",
+     "sp": 4,
+     "s": 1,
+     "u": 2,
+     "n": 1,
+     "tore": 6,
+     "gegen": 11,
+     "pkt": 5
+    },
+    {
+     "platz": 20,
      "team": "AS Rom",
      "sp": 4,
      "s": 1,
@@ -979,7 +1030,7 @@
      "pkt": 4
     },
     {
-     "platz": 20,
+     "platz": 21,
      "team": "Schachtar Donezk",
      "sp": 4,
      "s": 1,
@@ -990,18 +1041,18 @@
      "pkt": 4
     },
     {
-     "platz": 21,
-     "team": "PSV Eindhoven",
-     "sp": 3,
+     "platz": 22,
+     "team": "Viking Stavanger",
+     "sp": 4,
      "s": 1,
      "u": 1,
-     "n": 1,
-     "tore": 2,
-     "gegen": 2,
+     "n": 2,
+     "tore": 9,
+     "gegen": 10,
      "pkt": 4
     },
     {
-     "platz": 22,
+     "platz": 23,
      "team": "Atlético Madrid",
      "sp": 4,
      "s": 1,
@@ -1012,7 +1063,18 @@
      "pkt": 4
     },
     {
-     "platz": 23,
+     "platz": 24,
+     "team": "PSV Eindhoven",
+     "sp": 4,
+     "s": 1,
+     "u": 1,
+     "n": 2,
+     "tore": 3,
+     "gegen": 4,
+     "pkt": 4
+    },
+    {
+     "platz": 25,
      "team": "Bodø/Glimt",
      "sp": 4,
      "s": 1,
@@ -1023,62 +1085,29 @@
      "pkt": 4
     },
     {
-     "platz": 24,
-     "team": "SSC Neapel",
-     "sp": 3,
-     "s": 1,
-     "u": 0,
-     "n": 2,
-     "tore": 5,
-     "gegen": 7,
-     "pkt": 3
-    },
-    {
-     "platz": 25,
-     "team": "Sabah FK",
-     "sp": 3,
-     "s": 1,
-     "u": 0,
-     "n": 2,
-     "tore": 3,
-     "gegen": 6,
-     "pkt": 3
-    },
-    {
      "platz": 26,
-     "team": "RC Lens",
-     "sp": 3,
+     "team": "FC Porto",
+     "sp": 4,
      "s": 1,
      "u": 0,
-     "n": 2,
-     "tore": 3,
+     "n": 3,
+     "tore": 6,
      "gegen": 7,
      "pkt": 3
     },
     {
      "platz": 27,
-     "team": "AEK Athen",
-     "sp": 3,
+     "team": "SSC Neapel",
+     "sp": 4,
      "s": 1,
      "u": 0,
-     "n": 2,
-     "tore": 3,
-     "gegen": 8,
+     "n": 3,
+     "tore": 6,
+     "gegen": 11,
      "pkt": 3
     },
     {
      "platz": 28,
-     "team": "RB Leipzig",
-     "sp": 3,
-     "s": 1,
-     "u": 0,
-     "n": 2,
-     "tore": 3,
-     "gegen": 8,
-     "pkt": 3
-    },
-    {
-     "platz": 29,
      "team": "FC Villarreal",
      "sp": 4,
      "s": 1,
@@ -1089,7 +1118,40 @@
      "pkt": 3
     },
     {
-     "platz": 30,
+     "platz": 29,
+     "team": "AEK Athen",
+     "sp": 4,
+     "s": 1,
+     "u": 0,
+     "n": 3,
+     "tore": 5,
+     "gegen": 11,
+     "pkt": 3
+    },
+    {
+     "platz": 29,
+     "team": "RB Leipzig",
+     "sp": 4,
+     "s": 1,
+     "u": 0,
+     "n": 3,
+     "tore": 5,
+     "gegen": 11,
+     "pkt": 3
+    },
+    {
+     "platz": 31,
+     "team": "Sabah FK",
+     "sp": 4,
+     "s": 1,
+     "u": 0,
+     "n": 3,
+     "tore": 4,
+     "gegen": 10,
+     "pkt": 3
+    },
+    {
+     "platz": 32,
      "team": "Feyenoord",
      "sp": 4,
      "s": 1,
@@ -1100,40 +1162,29 @@
      "pkt": 3
     },
     {
-     "platz": 31,
-     "team": "Fenerbahçe",
-     "sp": 3,
-     "s": 0,
-     "u": 2,
-     "n": 1,
-     "tore": 3,
-     "gegen": 9,
-     "pkt": 2
-    },
-    {
-     "platz": 32,
-     "team": "Slavia Prag",
-     "sp": 3,
-     "s": 0,
-     "u": 1,
-     "n": 2,
-     "tore": 4,
-     "gegen": 7,
-     "pkt": 1
-    },
-    {
      "platz": 33,
-     "team": "Viking Stavanger",
-     "sp": 3,
+     "team": "RC Lens",
+     "sp": 4,
+     "s": 1,
+     "u": 0,
+     "n": 3,
+     "tore": 4,
+     "gegen": 16,
+     "pkt": 3
+    },
+    {
+     "platz": 34,
+     "team": "Slavia Prag",
+     "sp": 4,
      "s": 0,
      "u": 1,
-     "n": 2,
+     "n": 3,
      "tore": 5,
      "gegen": 9,
      "pkt": 1
     },
     {
-     "platz": 34,
+     "platz": 35,
      "team": "OSC Lille",
      "sp": 4,
      "s": 0,
@@ -1142,17 +1193,6 @@
      "tore": 4,
      "gegen": 10,
      "pkt": 1
-    },
-    {
-     "platz": 35,
-     "team": "FC Porto",
-     "sp": 3,
-     "s": 0,
-     "u": 0,
-     "n": 3,
-     "tore": 2,
-     "gegen": 6,
-     "pkt": 0
     },
     {
      "platz": 36,
