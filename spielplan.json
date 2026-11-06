@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-05T07:27:00+01:00",
+ "aktualisiert": "2026-11-06T07:45:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-07T15:30:00+01:00",
@@ -108,26 +108,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-11-06T02:15:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 9",
-   "heim": "Baltimore Ravens",
-   "gast": "Jacksonville Jaguars",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-11-08T15:30:00+01:00",
    "wettbewerb": "NFL",
@@ -1208,7 +1188,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 8",
+   "stand": "nach Woche 8 (plus Donnerstagsspiel Woche 9)",
    "divisionen": [
     {
      "name": "AFC East",
@@ -1277,10 +1257,10 @@
       {
        "team": "Baltimore Ravens",
        "s": 4,
-       "n": 4,
+       "n": 5,
        "u": 0,
-       "pf": 179,
-       "pa": 203
+       "pf": 189,
+       "pa": 236
       }
      ]
     },
@@ -1289,11 +1269,11 @@
      "teams": [
       {
        "team": "Jacksonville Jaguars",
-       "s": 5,
+       "s": 6,
        "n": 2,
        "u": 0,
-       "pf": 196,
-       "pa": 111
+       "pf": 229,
+       "pa": 121
       },
       {
        "team": "Houston Texans",
