@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-06T07:45:00+01:00",
+ "aktualisiert": "2026-11-07T07:45:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-07T15:30:00+01:00",
@@ -11,7 +11,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Einzelspiel"
+     "info": "Sky Sport Bundesliga 1 / Top Event"
     },
     {
      "name": "DAZN",
@@ -19,7 +19,7 @@
      "info": "nur Konferenz"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-20T20:30:00+01:00",
@@ -92,6 +92,21 @@
    "bestaetigt": true
   },
   {
+   "anstoss": "2026-12-04T20:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "12. Spieltag",
+   "heim": "FC Bayern",
+   "gast": "SC Paderborn 07",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Freitagsspiel"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
    "anstoss": "2026-12-08T21:00:00+01:00",
    "wettbewerb": "Champions League",
    "runde": "Ligaphase, 6. Spieltag",
@@ -136,12 +151,12 @@
    "gast": "Denver Broncos",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-08T19:00:00+01:00",
@@ -151,12 +166,12 @@
    "gast": "Dallas Cowboys",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-08T19:00:00+01:00",
@@ -196,12 +211,12 @@
    "gast": "Cleveland Browns",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-08T19:00:00+01:00",
@@ -211,12 +226,12 @@
    "gast": "New York Giants",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-08T19:00:00+01:00",
@@ -241,12 +256,12 @@
    "gast": "Houston Texans",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-08T22:25:00+01:00",
@@ -256,12 +271,12 @@
    "gast": "Las Vegas Raiders",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-08T22:25:00+01:00",
@@ -566,7 +581,7 @@
  ],
  "tabellen": {
   "bundesliga": {
-   "stand": "nach dem 8. Spieltag",
+   "stand": "nach dem 8. Spieltag (plus Freitagsspiel des 9. Spieltags)",
    "zeilen": [
     {
      "platz": 1,
@@ -654,6 +669,18 @@
     },
     {
      "platz": 8,
+     "team": "Hamburger SV",
+     "sp": 9,
+     "s": 4,
+     "u": 0,
+     "n": 5,
+     "tore": 10,
+     "gegen": 20,
+     "diff": -10,
+     "pkt": 12
+    },
+    {
+     "platz": 9,
      "team": "Eintracht Frankfurt",
      "sp": 8,
      "s": 3,
@@ -665,7 +692,7 @@
      "pkt": 11
     },
     {
-     "platz": 9,
+     "platz": 10,
      "team": "1. FSV Mainz 05",
      "sp": 8,
      "s": 3,
@@ -677,7 +704,7 @@
      "pkt": 10
     },
     {
-     "platz": 10,
+     "platz": 11,
      "team": "FC Augsburg",
      "sp": 8,
      "s": 2,
@@ -689,7 +716,7 @@
      "pkt": 9
     },
     {
-     "platz": 11,
+     "platz": 12,
      "team": "VfB Stuttgart",
      "sp": 8,
      "s": 3,
@@ -701,7 +728,7 @@
      "pkt": 9
     },
     {
-     "platz": 12,
+     "platz": 13,
      "team": "TSG Hoffenheim",
      "sp": 8,
      "s": 3,
@@ -713,7 +740,7 @@
      "pkt": 9
     },
     {
-     "platz": 13,
+     "platz": 14,
      "team": "1. FC Köln",
      "sp": 8,
      "s": 2,
@@ -725,7 +752,7 @@
      "pkt": 9
     },
     {
-     "platz": 14,
+     "platz": 15,
      "team": "SC Paderborn 07",
      "sp": 8,
      "s": 2,
@@ -734,18 +761,6 @@
      "tore": 6,
      "gegen": 9,
      "diff": -3,
-     "pkt": 9
-    },
-    {
-     "platz": 15,
-     "team": "Hamburger SV",
-     "sp": 8,
-     "s": 3,
-     "u": 0,
-     "n": 5,
-     "tore": 7,
-     "gegen": 19,
-     "diff": -12,
      "pkt": 9
     },
     {
@@ -775,13 +790,13 @@
     {
      "platz": 18,
      "team": "Borussia Mönchengladbach",
-     "sp": 8,
+     "sp": 9,
      "s": 1,
      "u": 1,
-     "n": 6,
-     "tore": 11,
-     "gegen": 22,
-     "diff": -11,
+     "n": 7,
+     "tore": 12,
+     "gegen": 25,
+     "diff": -13,
      "pkt": 4
     }
    ]
