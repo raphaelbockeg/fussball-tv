@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-09T07:31:00+01:00",
+ "aktualisiert": "2026-11-10T07:29:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-20T20:30:00+01:00",
@@ -72,6 +72,21 @@
    "bestaetigt": true
   },
   {
+   "anstoss": "2026-12-04T20:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "12. Spieltag",
+   "heim": "FC Bayern",
+   "gast": "SC Paderborn 07",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Freitagsspiel"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
    "anstoss": "2026-12-08T21:00:00+01:00",
    "wettbewerb": "Champions League",
    "runde": "Ligaphase, 6. Spieltag",
@@ -85,29 +100,39 @@
     }
    ],
    "bestaetigt": true
-  }
- ],
- "nfl": [
+  },
   {
-   "anstoss": "2026-11-10T02:15:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 9",
-   "heim": "Minnesota Vikings",
-   "gast": "Buffalo Bills",
+   "anstoss": "2026-12-13T17:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "13. Spieltag",
+   "heim": "TSG Hoffenheim",
+   "gast": "FC Bayern",
    "sender": [
     {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
+     "name": "DAZN",
+     "art": "pay",
+     "info": "Sonntagsspiel"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-12-18T20:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "14. Spieltag",
+   "heim": "FC Bayern",
+   "gast": "Werder Bremen",
+   "sender": [
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
+     "info": "Freitagsspiel"
     }
    ],
-   "bestaetigt": true
-  },
+   "bestaetigt": false
+  }
+ ],
+ "nfl": [
   {
    "anstoss": "2026-11-13T02:15:00+01:00",
    "wettbewerb": "NFL",
@@ -156,12 +181,12 @@
    "gast": "Kansas City Chiefs",
    "sender": [
     {
-     "name": "NFL Game Pass",
-     "art": "pay",
-     "info": "über DAZN"
+     "name": "RTL",
+     "art": "free",
+     "info": ""
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-15T19:00:00+01:00",
@@ -291,12 +316,12 @@
    "gast": "San Francisco 49ers",
    "sender": [
     {
-     "name": "NFL Game Pass",
-     "art": "pay",
-     "info": "über DAZN"
+     "name": "RTL",
+     "art": "free",
+     "info": ""
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-16T02:20:00+01:00",
@@ -334,6 +359,216 @@
      "name": "Sky",
      "art": "pay",
      "info": "Sky Sport NFL / Top Event"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-20T02:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Houston Texans",
+   "gast": "Indianapolis Colts",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Night Game"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-22T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Buffalo Bills",
+   "gast": "Miami Dolphins",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-22T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Carolina Panthers",
+   "gast": "Baltimore Ravens",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-22T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Chicago Bears",
+   "gast": "New Orleans Saints",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-22T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Dallas Cowboys",
+   "gast": "Tennessee Titans",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-22T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Detroit Lions",
+   "gast": "Tampa Bay Buccaneers",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-22T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Kansas City Chiefs",
+   "gast": "Arizona Cardinals",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-22T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "New York Giants",
+   "gast": "Jacksonville Jaguars",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-22T22:05:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Los Angeles Chargers",
+   "gast": "New York Jets",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-22T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Denver Broncos",
+   "gast": "Las Vegas Raiders",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-22T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Philadelphia Eagles",
+   "gast": "Pittsburgh Steelers",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-11-23T02:20:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11 · in Mexiko-Stadt",
+   "heim": "San Francisco 49ers",
+   "gast": "Minnesota Vikings",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Night Game"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-24T02:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 11",
+   "heim": "Washington Commanders",
+   "gast": "Cincinnati Bengals",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Night Game"
     }
    ],
    "bestaetigt": true
@@ -963,18 +1198,18 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 9 (ohne Montagsspiel)",
+   "stand": "nach Woche 9",
    "divisionen": [
     {
      "name": "AFC East",
      "teams": [
       {
        "team": "Buffalo Bills",
-       "s": 6,
+       "s": 7,
        "n": 1,
        "u": 0,
-       "pf": 233,
-       "pa": 181
+       "pf": 256,
+       "pa": 187
       },
       {
        "team": "New England Patriots",
@@ -1154,14 +1389,6 @@
      "name": "NFC North",
      "teams": [
       {
-       "team": "Minnesota Vikings",
-       "s": 6,
-       "n": 1,
-       "u": 0,
-       "pf": 140,
-       "pa": 93
-      },
-      {
        "team": "Chicago Bears",
        "s": 7,
        "n": 2,
@@ -1176,6 +1403,14 @@
        "u": 0,
        "pf": 222,
        "pa": 189
+      },
+      {
+       "team": "Minnesota Vikings",
+       "s": 6,
+       "n": 2,
+       "u": 0,
+       "pf": 146,
+       "pa": 116
       },
       {
        "team": "Green Bay Packers",
