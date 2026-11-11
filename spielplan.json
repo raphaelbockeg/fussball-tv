@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-10T07:29:00+01:00",
+ "aktualisiert": "2026-11-11T07:30:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-20T20:30:00+01:00",
@@ -127,9 +127,14 @@
      "name": "Sky",
      "art": "pay",
      "info": "Freitagsspiel"
+    },
+    {
+     "name": "SAT.1",
+     "art": "free",
+     "info": ""
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   }
  ],
  "nfl": [
@@ -168,7 +173,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
+     "info": "Sky Sport NFL"
     }
    ],
    "bestaetigt": true
@@ -196,12 +201,12 @@
    "gast": "Houston Texans",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-15T19:00:00+01:00",
@@ -211,12 +216,12 @@
    "gast": "Minnesota Vikings",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Sky Sport 1"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-15T19:00:00+01:00",
@@ -226,12 +231,12 @@
    "gast": "Miami Dolphins",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-15T19:00:00+01:00",
@@ -241,12 +246,12 @@
    "gast": "Carolina Panthers",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-15T19:00:00+01:00",
@@ -256,12 +261,12 @@
    "gast": "Buffalo Bills",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "RTL+",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Premium-Abo, nur Stream"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-15T19:00:00+01:00",
@@ -271,12 +276,12 @@
    "gast": "Jacksonville Jaguars",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-15T22:05:00+01:00",
@@ -286,12 +291,12 @@
    "gast": "Los Angeles Rams",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-15T22:05:00+01:00",
@@ -301,12 +306,12 @@
    "gast": "Seattle Seahawks",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Sky Sport 1"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-15T22:25:00+01:00",
