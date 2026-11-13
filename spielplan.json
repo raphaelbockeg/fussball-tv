@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-12T07:35:00+01:00",
+ "aktualisiert": "2026-11-13T07:23:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-20T20:30:00+01:00",
@@ -138,26 +138,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-11-13T02:15:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 10",
-   "heim": "New York Giants",
-   "gast": "Washington Commanders",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-11-15T15:30:00+01:00",
    "wettbewerb": "NFL",
