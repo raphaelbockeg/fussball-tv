@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-13T07:23:00+01:00",
+ "aktualisiert": "2026-11-14T07:45:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-20T20:30:00+01:00",
@@ -1183,7 +1183,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 9",
+   "stand": "nach Woche 10 (nur Donnerstagsspiel)",
    "divisionen": [
     {
      "name": "AFC East",
@@ -1339,10 +1339,10 @@
       {
        "team": "New York Giants",
        "s": 5,
-       "n": 2,
+       "n": 3,
        "u": 1,
-       "pf": 182,
-       "pa": 172
+       "pf": 203,
+       "pa": 196
       },
       {
        "team": "Dallas Cowboys",
@@ -1354,11 +1354,11 @@
       },
       {
        "team": "Washington Commanders",
-       "s": 2,
+       "s": 3,
        "n": 5,
        "u": 1,
-       "pf": 172,
-       "pa": 202
+       "pf": 196,
+       "pa": 223
       },
       {
        "team": "Philadelphia Eagles",
