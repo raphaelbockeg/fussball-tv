@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-16T07:50:00+01:00",
+ "aktualisiert": "2026-11-17T07:25:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-20T20:30:00+01:00",
@@ -138,26 +138,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-11-17T02:15:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 10",
-   "heim": "Baltimore Ravens",
-   "gast": "Los Angeles Chargers",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-11-20T02:15:00+01:00",
    "wettbewerb": "NFL",
@@ -993,7 +973,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 10 (ohne Montagsspiel)",
+   "stand": "nach Woche 10",
    "divisionen": [
     {
      "name": "AFC East",
@@ -1062,10 +1042,10 @@
       {
        "team": "Baltimore Ravens",
        "s": 4,
-       "n": 5,
+       "n": 6,
        "u": 0,
-       "pf": 189,
-       "pa": 236
+       "pf": 209,
+       "pa": 259
       }
      ]
     },
@@ -1135,11 +1115,11 @@
       },
       {
        "team": "Los Angeles Chargers",
-       "s": 0,
+       "s": 1,
        "n": 8,
        "u": 0,
-       "pf": 121,
-       "pa": 219
+       "pf": 144,
+       "pa": 239
       }
      ]
     },
