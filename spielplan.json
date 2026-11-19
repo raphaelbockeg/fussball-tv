@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-18T07:24:00+01:00",
+ "aktualisiert": "2026-11-19T07:40:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-20T20:30:00+01:00",
@@ -153,7 +153,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Night Game"
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -166,12 +166,12 @@
    "gast": "Miami Dolphins",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Sky Sport 1"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-22T19:00:00+01:00",
@@ -181,12 +181,12 @@
    "gast": "Baltimore Ravens",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-22T19:00:00+01:00",
@@ -196,12 +196,12 @@
    "gast": "New Orleans Saints",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-22T19:00:00+01:00",
@@ -211,12 +211,12 @@
    "gast": "Tennessee Titans",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-22T19:00:00+01:00",
@@ -226,12 +226,12 @@
    "gast": "Tampa Bay Buccaneers",
    "sender": [
     {
-     "name": "NFL Game Pass",
-     "art": "pay",
-     "info": "über DAZN"
+     "name": "RTL",
+     "art": "free",
+     "info": ""
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-22T19:00:00+01:00",
@@ -241,27 +241,27 @@
    "gast": "Arizona Cardinals",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "RTL+",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Premium-Abo, nur Stream"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-22T19:00:00+01:00",
    "wettbewerb": "NFL",
    "runde": "Woche 11",
-   "heim": "New York Giants",
-   "gast": "Jacksonville Jaguars",
+   "heim": "Philadelphia Eagles",
+   "gast": "Pittsburgh Steelers",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-22T22:05:00+01:00",
@@ -271,12 +271,12 @@
    "gast": "New York Jets",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Konferenz & NFL RedZone"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-22T22:25:00+01:00",
@@ -286,27 +286,27 @@
    "gast": "Las Vegas Raiders",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "Sky",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Sky Sport 1"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-22T22:25:00+01:00",
    "wettbewerb": "NFL",
    "runde": "Woche 11",
-   "heim": "Philadelphia Eagles",
-   "gast": "Pittsburgh Steelers",
+   "heim": "New York Giants",
+   "gast": "Jacksonville Jaguars",
    "sender": [
     {
-     "name": "NFL Game Pass",
-     "art": "pay",
-     "info": "über DAZN"
+     "name": "RTL",
+     "art": "free",
+     "info": ""
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-23T02:20:00+01:00",
@@ -323,7 +323,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Night Game"
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
@@ -343,7 +343,7 @@
     {
      "name": "Sky",
      "art": "pay",
-     "info": "Night Game"
+     "info": "Sky Sport NFL / Top Event"
     }
    ],
    "bestaetigt": true
