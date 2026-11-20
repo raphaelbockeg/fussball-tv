@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-19T07:40:00+01:00",
+ "aktualisiert": "2026-11-20T07:30:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-20T20:30:00+01:00",
@@ -138,26 +138,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-11-20T02:15:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 11",
-   "heim": "Houston Texans",
-   "gast": "Indianapolis Colts",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-11-22T19:00:00+01:00",
    "wettbewerb": "NFL",
@@ -1213,7 +1193,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 10",
+   "stand": "nach Woche 11 (nur Donnerstagsspiel)",
    "divisionen": [
     {
      "name": "AFC East",
@@ -1302,19 +1282,19 @@
       },
       {
        "team": "Houston Texans",
-       "s": 3,
+       "s": 4,
        "n": 6,
        "u": 0,
-       "pf": 233,
-       "pa": 219
+       "pf": 259,
+       "pa": 222
       },
       {
        "team": "Indianapolis Colts",
        "s": 3,
-       "n": 7,
+       "n": 8,
        "u": 0,
-       "pf": 208,
-       "pa": 271
+       "pf": 211,
+       "pa": 297
       },
       {
        "team": "Tennessee Titans",
