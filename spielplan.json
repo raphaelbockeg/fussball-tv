@@ -1,21 +1,6 @@
 {
- "aktualisiert": "2026-11-20T07:30:00+01:00",
+ "aktualisiert": "2026-11-21T07:45:00+01:00",
  "bayern": [
-  {
-   "anstoss": "2026-11-20T20:30:00+01:00",
-   "wettbewerb": "Bundesliga",
-   "runde": "10. Spieltag",
-   "heim": "FC Bayern",
-   "gast": "1. FC Köln",
-   "sender": [
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Freitagsspiel"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-11-25T21:00:00+01:00",
    "wettbewerb": "Champions League",
@@ -571,19 +556,19 @@
  ],
  "tabellen": {
   "bundesliga": {
-   "stand": "nach dem 9. Spieltag",
+   "stand": "nach dem 10. Spieltag (nur Freitagsspiel)",
    "zeilen": [
     {
      "platz": 1,
      "team": "FC Bayern",
-     "sp": 9,
+     "sp": 10,
      "s": 6,
-     "u": 3,
+     "u": 4,
      "n": 0,
-     "tore": 29,
-     "gegen": 9,
+     "tore": 30,
+     "gegen": 10,
      "diff": 20,
-     "pkt": 21
+     "pkt": 22
     },
     {
      "platz": 2,
@@ -731,6 +716,18 @@
     },
     {
      "platz": 14,
+     "team": "1. FC Köln",
+     "sp": 10,
+     "s": 2,
+     "u": 4,
+     "n": 4,
+     "tore": 11,
+     "gegen": 15,
+     "diff": -4,
+     "pkt": 10
+    },
+    {
+     "platz": 15,
      "team": "FC Augsburg",
      "sp": 9,
      "s": 2,
@@ -739,18 +736,6 @@
      "tore": 20,
      "gegen": 20,
      "diff": 0,
-     "pkt": 9
-    },
-    {
-     "platz": 15,
-     "team": "1. FC Köln",
-     "sp": 9,
-     "s": 2,
-     "u": 3,
-     "n": 4,
-     "tore": 10,
-     "gegen": 14,
-     "diff": -4,
      "pkt": 9
     },
     {
