@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-21T07:45:00+01:00",
+ "aktualisiert": "2026-11-22T07:40:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-25T21:00:00+01:00",
@@ -556,10 +556,22 @@
  ],
  "tabellen": {
   "bundesliga": {
-   "stand": "nach dem 10. Spieltag (nur Freitagsspiel)",
+   "stand": "nach dem 10. Spieltag (ohne Sonntagsspiele)",
    "zeilen": [
     {
      "platz": 1,
+     "team": "Borussia Dortmund",
+     "sp": 10,
+     "s": 7,
+     "u": 3,
+     "n": 0,
+     "tore": 17,
+     "gegen": 7,
+     "diff": 10,
+     "pkt": 24
+    },
+    {
+     "platz": 2,
      "team": "FC Bayern",
      "sp": 10,
      "s": 6,
@@ -571,52 +583,40 @@
      "pkt": 22
     },
     {
-     "platz": 2,
-     "team": "Borussia Dortmund",
-     "sp": 9,
-     "s": 6,
-     "u": 3,
-     "n": 0,
-     "tore": 16,
-     "gegen": 7,
-     "diff": 9,
-     "pkt": 21
-    },
-    {
      "platz": 3,
      "team": "SC Freiburg",
-     "sp": 9,
-     "s": 6,
+     "sp": 10,
+     "s": 7,
      "u": 1,
      "n": 2,
-     "tore": 20,
+     "tore": 21,
      "gegen": 10,
-     "diff": 10,
-     "pkt": 19
+     "diff": 11,
+     "pkt": 22
     },
     {
      "platz": 4,
      "team": "RB Leipzig",
-     "sp": 9,
-     "s": 6,
+     "sp": 10,
+     "s": 7,
      "u": 0,
      "n": 3,
-     "tore": 27,
-     "gegen": 13,
-     "diff": 14,
-     "pkt": 18
+     "tore": 32,
+     "gegen": 14,
+     "diff": 18,
+     "pkt": 21
     },
     {
      "platz": 5,
      "team": "Bayer Leverkusen",
-     "sp": 9,
-     "s": 5,
+     "sp": 10,
+     "s": 6,
      "u": 1,
      "n": 3,
-     "tore": 20,
+     "tore": 24,
      "gegen": 17,
-     "diff": 3,
-     "pkt": 16
+     "diff": 7,
+     "pkt": 19
     },
     {
      "platz": 6,
@@ -632,50 +632,50 @@
     },
     {
      "platz": 7,
-     "team": "SV Elversberg",
-     "sp": 9,
+     "team": "Eintracht Frankfurt",
+     "sp": 10,
      "s": 4,
-     "u": 1,
-     "n": 4,
-     "tore": 17,
-     "gegen": 18,
-     "diff": -1,
-     "pkt": 13
+     "u": 3,
+     "n": 3,
+     "tore": 16,
+     "gegen": 20,
+     "diff": -4,
+     "pkt": 15
     },
     {
      "platz": 8,
      "team": "VfB Stuttgart",
-     "sp": 9,
+     "sp": 10,
      "s": 4,
-     "u": 0,
+     "u": 1,
      "n": 5,
      "tore": 15,
      "gegen": 15,
      "diff": 0,
-     "pkt": 12
+     "pkt": 13
     },
     {
      "platz": 9,
-     "team": "TSG Hoffenheim",
-     "sp": 9,
+     "team": "SV Elversberg",
+     "sp": 10,
      "s": 4,
-     "u": 0,
+     "u": 1,
      "n": 5,
-     "tore": 16,
-     "gegen": 17,
-     "diff": -1,
-     "pkt": 12
+     "tore": 17,
+     "gegen": 19,
+     "diff": -2,
+     "pkt": 13
     },
     {
      "platz": 10,
-     "team": "Eintracht Frankfurt",
-     "sp": 9,
-     "s": 3,
-     "u": 3,
-     "n": 3,
-     "tore": 15,
-     "gegen": 20,
-     "diff": -5,
+     "team": "TSG Hoffenheim",
+     "sp": 10,
+     "s": 4,
+     "u": 0,
+     "n": 6,
+     "tore": 16,
+     "gegen": 18,
+     "diff": -2,
      "pkt": 12
     },
     {
@@ -704,18 +704,6 @@
     },
     {
      "platz": 13,
-     "team": "SC Paderborn 07",
-     "sp": 9,
-     "s": 2,
-     "u": 4,
-     "n": 3,
-     "tore": 8,
-     "gegen": 11,
-     "diff": -3,
-     "pkt": 10
-    },
-    {
-     "platz": 14,
      "team": "1. FC Köln",
      "sp": 10,
      "s": 2,
@@ -724,6 +712,18 @@
      "tore": 11,
      "gegen": 15,
      "diff": -4,
+     "pkt": 10
+    },
+    {
+     "platz": 14,
+     "team": "SC Paderborn 07",
+     "sp": 10,
+     "s": 2,
+     "u": 4,
+     "n": 4,
+     "tore": 8,
+     "gegen": 15,
+     "diff": -7,
      "pkt": 10
     },
     {
@@ -740,38 +740,38 @@
     },
     {
      "platz": 16,
-     "team": "1. FC Union Berlin",
-     "sp": 9,
+     "team": "FC Schalke 04",
+     "sp": 10,
      "s": 1,
      "u": 4,
-     "n": 4,
-     "tore": 7,
-     "gegen": 21,
-     "diff": -14,
-     "pkt": 7
-    },
-    {
-     "platz": 17,
-     "team": "FC Schalke 04",
-     "sp": 9,
-     "s": 1,
-     "u": 3,
      "n": 5,
      "tore": 5,
      "gegen": 11,
      "diff": -6,
-     "pkt": 6
+     "pkt": 7
+    },
+    {
+     "platz": 17,
+     "team": "1. FC Union Berlin",
+     "sp": 10,
+     "s": 1,
+     "u": 4,
+     "n": 5,
+     "tore": 8,
+     "gegen": 26,
+     "diff": -18,
+     "pkt": 7
     },
     {
      "platz": 18,
      "team": "Borussia Mönchengladbach",
-     "sp": 9,
+     "sp": 10,
      "s": 1,
      "u": 1,
-     "n": 7,
+     "n": 8,
      "tore": 12,
-     "gegen": 25,
-     "diff": -13,
+     "gegen": 26,
+     "diff": -14,
      "pkt": 4
     }
    ]
