@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-23T08:00:00+01:00",
+ "aktualisiert": "2026-11-24T07:24:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-25T21:00:00+01:00",
@@ -123,26 +123,6 @@
   }
  ],
  "nfl": [
-  {
-   "anstoss": "2026-11-24T02:15:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 11",
-   "heim": "Washington Commanders",
-   "gast": "Cincinnati Bengals",
-   "sender": [
-    {
-     "name": "RTL",
-     "art": "free",
-     "info": ""
-    },
-    {
-     "name": "Sky",
-     "art": "pay",
-     "info": "Sky Sport NFL / Top Event"
-    }
-   ],
-   "bestaetigt": true
-  },
   {
    "anstoss": "2026-11-26T02:00:00+01:00",
    "wettbewerb": "NFL",
@@ -1008,7 +988,7 @@
    ]
   },
   "nfl": {
-   "stand": "nach Woche 11 (ohne Montagsspiel)",
+   "stand": "nach Woche 11",
    "divisionen": [
     {
      "name": "AFC East",
@@ -1053,10 +1033,10 @@
       {
        "team": "Cincinnati Bengals",
        "s": 7,
-       "n": 2,
+       "n": 3,
        "u": 0,
-       "pf": 278,
-       "pa": 193
+       "pf": 298,
+       "pa": 215
       },
       {
        "team": "Pittsburgh Steelers",
@@ -1179,11 +1159,11 @@
       },
       {
        "team": "Washington Commanders",
-       "s": 3,
+       "s": 4,
        "n": 5,
        "u": 1,
-       "pf": 196,
-       "pa": 223
+       "pf": 218,
+       "pa": 243
       },
       {
        "team": "Philadelphia Eagles",
