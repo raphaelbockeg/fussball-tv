@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-24T07:24:00+01:00",
+ "aktualisiert": "2026-11-25T08:00:00+01:00",
  "bayern": [
   {
    "anstoss": "2026-11-25T21:00:00+01:00",
@@ -120,6 +120,21 @@
     }
    ],
    "bestaetigt": true
+  },
+  {
+   "anstoss": "2027-01-09T18:30:00+01:00",
+   "wettbewerb": "Bundesliga",
+   "runde": "15. Spieltag",
+   "heim": "Borussia Mönchengladbach",
+   "gast": "FC Bayern",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Topspiel"
+    }
+   ],
+   "bestaetigt": false
   }
  ],
  "nfl": [
@@ -131,12 +146,17 @@
    "gast": "Green Bay Packers",
    "sender": [
     {
+     "name": "Netflix",
+     "art": "pay",
+     "info": "im Netflix-Abo"
+    },
+    {
      "name": "NFL Game Pass",
      "art": "pay",
      "info": "über DAZN"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-26T19:00:00+01:00",
@@ -146,12 +166,22 @@
    "gast": "Chicago Bears",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "NITRO",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "RTL+",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Premium-Abo, nur Stream"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-26T22:30:00+01:00",
@@ -161,18 +191,243 @@
    "gast": "Philadelphia Eagles",
    "sender": [
     {
-     "name": "NFL Game Pass",
+     "name": "NITRO",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "RTL+",
      "art": "pay",
-     "info": "über DAZN"
+     "info": "Premium-Abo, nur Stream"
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL"
     }
    ],
-   "bestaetigt": false
+   "bestaetigt": true
   },
   {
    "anstoss": "2026-11-27T02:20:00+01:00",
    "wettbewerb": "NFL",
    "runde": "Woche 12",
    "heim": "Buffalo Bills",
+   "gast": "Kansas City Chiefs",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL / Top Event"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-27T21:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Pittsburgh Steelers",
+   "gast": "Denver Broncos",
+   "sender": [
+    {
+     "name": "Prime Video",
+     "art": "free",
+     "info": "ohne Abo, Anmeldung nötig"
+    },
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-29T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Cincinnati Bengals",
+   "gast": "New Orleans Saints",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-29T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Houston Texans",
+   "gast": "Baltimore Ravens",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Konferenz & NFL RedZone"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-29T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Indianapolis Colts",
+   "gast": "New York Giants",
+   "sender": [
+    {
+     "name": "RTL+",
+     "art": "pay",
+     "info": "Premium-Abo, nur Stream"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-29T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Jacksonville Jaguars",
+   "gast": "Tennessee Titans",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Konferenz & NFL RedZone"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-29T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Miami Dolphins",
+   "gast": "New York Jets",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Konferenz & NFL RedZone"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-29T19:00:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Minnesota Vikings",
+   "gast": "Atlanta Falcons",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport 1"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-29T22:05:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Los Angeles Chargers",
+   "gast": "New England Patriots",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Konferenz & NFL RedZone"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-29T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Arizona Cardinals",
+   "gast": "Washington Commanders",
+   "sender": [
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport 1"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-29T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "San Francisco 49ers",
+   "gast": "Seattle Seahawks",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-11-30T02:20:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Cleveland Browns",
+   "gast": "Las Vegas Raiders",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL / Top Event"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-12-01T02:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 12",
+   "heim": "Tampa Bay Buccaneers",
+   "gast": "Carolina Panthers",
+   "sender": [
+    {
+     "name": "RTL",
+     "art": "free",
+     "info": ""
+    },
+    {
+     "name": "Sky",
+     "art": "pay",
+     "info": "Sky Sport NFL / Top Event"
+    }
+   ],
+   "bestaetigt": true
+  },
+  {
+   "anstoss": "2026-12-04T02:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 13",
+   "heim": "Los Angeles Rams",
    "gast": "Kansas City Chiefs",
    "sender": [
     {
@@ -184,11 +439,11 @@
    "bestaetigt": false
   },
   {
-   "anstoss": "2026-11-27T21:00:00+01:00",
+   "anstoss": "2026-12-06T19:00:00+01:00",
    "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Pittsburgh Steelers",
-   "gast": "Denver Broncos",
+   "runde": "Woche 13",
+   "heim": "Atlanta Falcons",
+   "gast": "Detroit Lions",
    "sender": [
     {
      "name": "NFL Game Pass",
@@ -199,11 +454,11 @@
    "bestaetigt": false
   },
   {
-   "anstoss": "2026-11-29T19:00:00+01:00",
+   "anstoss": "2026-12-06T19:00:00+01:00",
    "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Cincinnati Bengals",
-   "gast": "New Orleans Saints",
+   "runde": "Woche 13",
+   "heim": "Chicago Bears",
+   "gast": "Jacksonville Jaguars",
    "sender": [
     {
      "name": "NFL Game Pass",
@@ -214,11 +469,11 @@
    "bestaetigt": false
   },
   {
-   "anstoss": "2026-11-29T19:00:00+01:00",
+   "anstoss": "2026-12-06T19:00:00+01:00",
    "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Houston Texans",
-   "gast": "Baltimore Ravens",
+   "runde": "Woche 13",
+   "heim": "Cleveland Browns",
+   "gast": "Cincinnati Bengals",
    "sender": [
     {
      "name": "NFL Game Pass",
@@ -229,11 +484,11 @@
    "bestaetigt": false
   },
   {
-   "anstoss": "2026-11-29T19:00:00+01:00",
+   "anstoss": "2026-12-06T19:00:00+01:00",
    "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Indianapolis Colts",
-   "gast": "New York Giants",
+   "runde": "Woche 13",
+   "heim": "New Orleans Saints",
+   "gast": "Green Bay Packers",
    "sender": [
     {
      "name": "NFL Game Pass",
@@ -244,11 +499,11 @@
    "bestaetigt": false
   },
   {
-   "anstoss": "2026-11-29T19:00:00+01:00",
+   "anstoss": "2026-12-06T19:00:00+01:00",
    "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Jacksonville Jaguars",
-   "gast": "Tennessee Titans",
+   "runde": "Woche 13",
+   "heim": "New York Giants",
+   "gast": "San Francisco 49ers",
    "sender": [
     {
      "name": "NFL Game Pass",
@@ -259,11 +514,11 @@
    "bestaetigt": false
   },
   {
-   "anstoss": "2026-11-29T19:00:00+01:00",
+   "anstoss": "2026-12-06T19:00:00+01:00",
    "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Miami Dolphins",
-   "gast": "New York Jets",
+   "runde": "Woche 13",
+   "heim": "Tampa Bay Buccaneers",
+   "gast": "Los Angeles Chargers",
    "sender": [
     {
      "name": "NFL Game Pass",
@@ -274,40 +529,10 @@
    "bestaetigt": false
   },
   {
-   "anstoss": "2026-11-29T19:00:00+01:00",
+   "anstoss": "2026-12-06T19:00:00+01:00",
    "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Minnesota Vikings",
-   "gast": "Atlanta Falcons",
-   "sender": [
-    {
-     "name": "NFL Game Pass",
-     "art": "pay",
-     "info": "über DAZN"
-    }
-   ],
-   "bestaetigt": false
-  },
-  {
-   "anstoss": "2026-11-29T22:05:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Los Angeles Chargers",
-   "gast": "New England Patriots",
-   "sender": [
-    {
-     "name": "NFL Game Pass",
-     "art": "pay",
-     "info": "über DAZN"
-    }
-   ],
-   "bestaetigt": false
-  },
-  {
-   "anstoss": "2026-11-29T22:25:00+01:00",
-   "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Arizona Cardinals",
+   "runde": "Woche 13",
+   "heim": "Tennessee Titans",
    "gast": "Washington Commanders",
    "sender": [
     {
@@ -319,11 +544,11 @@
    "bestaetigt": false
   },
   {
-   "anstoss": "2026-11-29T22:25:00+01:00",
+   "anstoss": "2026-12-06T22:05:00+01:00",
    "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "San Francisco 49ers",
-   "gast": "Seattle Seahawks",
+   "runde": "Woche 13",
+   "heim": "Arizona Cardinals",
+   "gast": "Philadelphia Eagles",
    "sender": [
     {
      "name": "NFL Game Pass",
@@ -334,11 +559,11 @@
    "bestaetigt": false
   },
   {
-   "anstoss": "2026-11-30T02:20:00+01:00",
+   "anstoss": "2026-12-06T22:05:00+01:00",
    "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Cleveland Browns",
-   "gast": "Las Vegas Raiders",
+   "runde": "Woche 13",
+   "heim": "Denver Broncos",
+   "gast": "Miami Dolphins",
    "sender": [
     {
      "name": "NFL Game Pass",
@@ -349,11 +574,56 @@
    "bestaetigt": false
   },
   {
-   "anstoss": "2026-12-01T02:15:00+01:00",
+   "anstoss": "2026-12-06T22:25:00+01:00",
    "wettbewerb": "NFL",
-   "runde": "Woche 12",
-   "heim": "Tampa Bay Buccaneers",
+   "runde": "Woche 13",
+   "heim": "Minnesota Vikings",
    "gast": "Carolina Panthers",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-12-06T22:25:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 13",
+   "heim": "New England Patriots",
+   "gast": "Buffalo Bills",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-12-07T02:20:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 13",
+   "heim": "Pittsburgh Steelers",
+   "gast": "Houston Texans",
+   "sender": [
+    {
+     "name": "NFL Game Pass",
+     "art": "pay",
+     "info": "über DAZN"
+    }
+   ],
+   "bestaetigt": false
+  },
+  {
+   "anstoss": "2026-12-08T02:15:00+01:00",
+   "wettbewerb": "NFL",
+   "runde": "Woche 13",
+   "heim": "Seattle Seahawks",
+   "gast": "Dallas Cowboys",
    "sender": [
     {
      "name": "NFL Game Pass",
@@ -587,10 +857,21 @@
    ]
   },
   "championsLeague": {
-   "stand": "nach dem 4. Spieltag",
+   "stand": "nach dem 5. Spieltag (ohne Mittwochsspiele)",
    "zeilen": [
     {
      "platz": 1,
+     "team": "Real Madrid",
+     "sp": 5,
+     "s": 5,
+     "u": 0,
+     "n": 0,
+     "tore": 18,
+     "gegen": 8,
+     "pkt": 15
+    },
+    {
+     "platz": 2,
      "team": "Paris Saint-Germain",
      "sp": 4,
      "s": 4,
@@ -601,40 +882,62 @@
      "pkt": 12
     },
     {
-     "platz": 2,
-     "team": "Real Madrid",
-     "sp": 4,
+     "platz": 3,
+     "team": "Como 1907",
+     "sp": 5,
      "s": 4,
      "u": 0,
-     "n": 0,
-     "tore": 13,
-     "gegen": 7,
+     "n": 1,
+     "tore": 20,
+     "gegen": 6,
      "pkt": 12
     },
     {
-     "platz": 3,
-     "team": "FC Arsenal",
-     "sp": 4,
-     "s": 3,
-     "u": 1,
-     "n": 0,
-     "tore": 8,
-     "gegen": 3,
-     "pkt": 10
-    },
-    {
      "platz": 4,
-     "team": "Como 1907",
-     "sp": 4,
-     "s": 3,
+     "team": "Real Betis",
+     "sp": 5,
+     "s": 4,
      "u": 0,
      "n": 1,
-     "tore": 19,
+     "tore": 10,
      "gegen": 6,
-     "pkt": 9
+     "pkt": 12
     },
     {
      "platz": 5,
+     "team": "FC Arsenal",
+     "sp": 5,
+     "s": 3,
+     "u": 2,
+     "n": 0,
+     "tore": 9,
+     "gegen": 4,
+     "pkt": 11
+    },
+    {
+     "platz": 6,
+     "team": "Manchester City",
+     "sp": 5,
+     "s": 3,
+     "u": 1,
+     "n": 1,
+     "tore": 14,
+     "gegen": 9,
+     "pkt": 10
+    },
+    {
+     "platz": 7,
+     "team": "Borussia Dortmund",
+     "sp": 5,
+     "s": 3,
+     "u": 1,
+     "n": 1,
+     "tore": 8,
+     "gegen": 6,
+     "pkt": 10
+    },
+    {
+     "platz": 8,
      "team": "FC Barcelona",
      "sp": 4,
      "s": 3,
@@ -645,29 +948,18 @@
      "pkt": 9
     },
     {
-     "platz": 6,
+     "platz": 9,
      "team": "Aston Villa",
-     "sp": 4,
+     "sp": 5,
      "s": 3,
      "u": 0,
-     "n": 1,
-     "tore": 12,
-     "gegen": 6,
-     "pkt": 9
-    },
-    {
-     "platz": 7,
-     "team": "Manchester City",
-     "sp": 4,
-     "s": 3,
-     "u": 0,
-     "n": 1,
+     "n": 2,
      "tore": 12,
      "gegen": 7,
      "pkt": 9
     },
     {
-     "platz": 8,
+     "platz": 10,
      "team": "FC Liverpool",
      "sp": 4,
      "s": 3,
@@ -678,7 +970,7 @@
      "pkt": 9
     },
     {
-     "platz": 9,
+     "platz": 11,
      "team": "FC Brügge",
      "sp": 4,
      "s": 3,
@@ -689,7 +981,7 @@
      "pkt": 9
     },
     {
-     "platz": 10,
+     "platz": 12,
      "team": "Sporting Lissabon",
      "sp": 4,
      "s": 3,
@@ -700,29 +992,18 @@
      "pkt": 9
     },
     {
-     "platz": 11,
-     "team": "Real Betis",
-     "sp": 4,
-     "s": 3,
-     "u": 0,
-     "n": 1,
-     "tore": 8,
-     "gegen": 6,
-     "pkt": 9
-    },
-    {
-     "platz": 12,
-     "team": "Borussia Dortmund",
-     "sp": 4,
-     "s": 3,
-     "u": 0,
-     "n": 1,
-     "tore": 7,
-     "gegen": 5,
-     "pkt": 9
-    },
-    {
      "platz": 13,
+     "team": "Galatasaray",
+     "sp": 5,
+     "s": 3,
+     "u": 0,
+     "n": 2,
+     "tore": 9,
+     "gegen": 9,
+     "pkt": 9
+    },
+    {
+     "platz": 14,
      "team": "FC Bayern",
      "sp": 4,
      "s": 2,
@@ -733,7 +1014,7 @@
      "pkt": 8
     },
     {
-     "platz": 14,
+     "platz": 15,
      "team": "VfB Stuttgart",
      "sp": 4,
      "s": 2,
@@ -744,7 +1025,18 @@
      "pkt": 7
     },
     {
-     "platz": 15,
+     "platz": 16,
+     "team": "Bodø/Glimt",
+     "sp": 5,
+     "s": 2,
+     "u": 1,
+     "n": 2,
+     "tore": 5,
+     "gegen": 9,
+     "pkt": 7
+    },
+    {
+     "platz": 17,
      "team": "Inter Mailand",
      "sp": 4,
      "s": 2,
@@ -755,18 +1047,18 @@
      "pkt": 6
     },
     {
-     "platz": 16,
+     "platz": 18,
      "team": "LASK",
-     "sp": 4,
+     "sp": 5,
      "s": 2,
      "u": 0,
-     "n": 2,
+     "n": 3,
      "tore": 10,
-     "gegen": 9,
+     "gegen": 10,
      "pkt": 6
     },
     {
-     "platz": 17,
+     "platz": 19,
      "team": "Manchester United",
      "sp": 4,
      "s": 2,
@@ -777,18 +1069,29 @@
      "pkt": 6
     },
     {
-     "platz": 18,
-     "team": "Galatasaray",
-     "sp": 4,
+     "platz": 20,
+     "team": "FC Porto",
+     "sp": 5,
      "s": 2,
      "u": 0,
-     "n": 2,
-     "tore": 8,
-     "gegen": 9,
+     "n": 3,
+     "tore": 7,
+     "gegen": 7,
      "pkt": 6
     },
     {
-     "platz": 19,
+     "platz": 21,
+     "team": "RB Leipzig",
+     "sp": 5,
+     "s": 2,
+     "u": 0,
+     "n": 3,
+     "tore": 8,
+     "gegen": 12,
+     "pkt": 6
+    },
+    {
+     "platz": 22,
      "team": "Fenerbahçe",
      "sp": 4,
      "s": 1,
@@ -799,7 +1102,7 @@
      "pkt": 5
     },
     {
-     "platz": 20,
+     "platz": 23,
      "team": "AS Rom",
      "sp": 4,
      "s": 1,
@@ -810,7 +1113,7 @@
      "pkt": 4
     },
     {
-     "platz": 21,
+     "platz": 24,
      "team": "Schachtar Donezk",
      "sp": 4,
      "s": 1,
@@ -821,7 +1124,7 @@
      "pkt": 4
     },
     {
-     "platz": 22,
+     "platz": 25,
      "team": "Viking Stavanger",
      "sp": 4,
      "s": 1,
@@ -832,7 +1135,7 @@
      "pkt": 4
     },
     {
-     "platz": 23,
+     "platz": 26,
      "team": "Atlético Madrid",
      "sp": 4,
      "s": 1,
@@ -843,51 +1146,29 @@
      "pkt": 4
     },
     {
-     "platz": 24,
-     "team": "PSV Eindhoven",
-     "sp": 4,
+     "platz": 27,
+     "team": "SSC Neapel",
+     "sp": 5,
      "s": 1,
      "u": 1,
-     "n": 2,
-     "tore": 3,
-     "gegen": 4,
+     "n": 3,
+     "tore": 8,
+     "gegen": 13,
      "pkt": 4
     },
     {
-     "platz": 25,
-     "team": "Bodø/Glimt",
-     "sp": 4,
+     "platz": 28,
+     "team": "PSV Eindhoven",
+     "sp": 5,
      "s": 1,
      "u": 1,
-     "n": 2,
+     "n": 3,
      "tore": 4,
      "gegen": 9,
      "pkt": 4
     },
     {
-     "platz": 26,
-     "team": "FC Porto",
-     "sp": 4,
-     "s": 1,
-     "u": 0,
-     "n": 3,
-     "tore": 6,
-     "gegen": 7,
-     "pkt": 3
-    },
-    {
-     "platz": 27,
-     "team": "SSC Neapel",
-     "sp": 4,
-     "s": 1,
-     "u": 0,
-     "n": 3,
-     "tore": 6,
-     "gegen": 11,
-     "pkt": 3
-    },
-    {
-     "platz": 28,
+     "platz": 29,
      "team": "FC Villarreal",
      "sp": 4,
      "s": 1,
@@ -898,29 +1179,7 @@
      "pkt": 3
     },
     {
-     "platz": 29,
-     "team": "AEK Athen",
-     "sp": 4,
-     "s": 1,
-     "u": 0,
-     "n": 3,
-     "tore": 5,
-     "gegen": 11,
-     "pkt": 3
-    },
-    {
-     "platz": 29,
-     "team": "RB Leipzig",
-     "sp": 4,
-     "s": 1,
-     "u": 0,
-     "n": 3,
-     "tore": 5,
-     "gegen": 11,
-     "pkt": 3
-    },
-    {
-     "platz": 31,
+     "platz": 30,
      "team": "Sabah FK",
      "sp": 4,
      "s": 1,
@@ -931,25 +1190,36 @@
      "pkt": 3
     },
     {
-     "platz": 32,
-     "team": "Feyenoord",
-     "sp": 4,
+     "platz": 31,
+     "team": "AEK Athen",
+     "sp": 5,
      "s": 1,
      "u": 0,
-     "n": 3,
+     "n": 4,
+     "tore": 5,
+     "gegen": 12,
+     "pkt": 3
+    },
+    {
+     "platz": 32,
+     "team": "Feyenoord",
+     "sp": 5,
+     "s": 1,
+     "u": 0,
+     "n": 4,
      "tore": 4,
-     "gegen": 11,
+     "gegen": 12,
      "pkt": 3
     },
     {
      "platz": 33,
      "team": "RC Lens",
-     "sp": 4,
+     "sp": 5,
      "s": 1,
      "u": 0,
-     "n": 3,
-     "tore": 4,
-     "gegen": 16,
+     "n": 4,
+     "tore": 5,
+     "gegen": 19,
      "pkt": 3
     },
     {
@@ -977,12 +1247,12 @@
     {
      "platz": 36,
      "team": "Slovan Bratislava",
-     "sp": 4,
+     "sp": 5,
      "s": 0,
      "u": 0,
-     "n": 4,
+     "n": 5,
      "tore": 1,
-     "gegen": 17,
+     "gegen": 19,
      "pkt": 0
     }
    ]
